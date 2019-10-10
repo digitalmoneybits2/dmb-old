@@ -22,6 +22,12 @@ OptionsDialog::OptionsDialog(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    /* disable darksend options */
+    ui->label->setHidden(true);
+    ui->label_2->setHidden(true);
+    ui->darksendRounds->setHidden(true);
+    ui->anonymizeDigitalmoneybits->setHidden(true);
+
     /* Network elements init */
 #ifndef USE_UPNP
     ui->mapPortUpnp->setEnabled(false);

@@ -20,7 +20,7 @@ class MasternodeManager;
 class MessagePage;
 class MessageModel;
 class BlockBrowser;
-class tradingDialog;
+// class tradingDialog;
 
 QT_BEGIN_NAMESPACE
 class QLabel;
@@ -81,7 +81,7 @@ private:
     MessagePage *messagePage;
     QLabel* netLabel;
     BlockBrowser *blockBrowser;
-    tradingDialog   *tradingDialogPage;
+    // tradingDialog   *tradingDialogPage;
     QLabel *labelEncryptionIcon;
     QLabel *labelStakingIcon;
     QLabel *labelConnectionsIcon;

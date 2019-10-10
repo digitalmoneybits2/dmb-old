@@ -24,6 +24,10 @@ AddEditAdrenalineNode::AddEditAdrenalineNode(QWidget *parent) :
 
     ui->rewardaddressLineEdit->setEnabled(false);
     ui->rewardpercentageLineEdit->setEnabled(false);
+    ui->rewardaddressLineEdit->setHidden(true);
+    ui->rewardpercentageLineEdit->setHidden(true);
+    ui->label_3->setHidden(true);
+    ui->label_7->setHidden(true);
 
 
     //Labels
@@ -32,8 +36,8 @@ AddEditAdrenalineNode::AddEditAdrenalineNode(QWidget *parent) :
     ui->privkeyLineEdit->setPlaceholderText("Enter your Masternode private key");
     ui->txhashLineEdit->setPlaceholderText("Enter your 100000 DMB TXID");
     ui->outputindexLineEdit->setPlaceholderText("Enter your transaction output index");
-    ui->rewardaddressLineEdit->setPlaceholderText("Enter a reward recive address");
-    ui->rewardpercentageLineEdit->setPlaceholderText("Input the % for the reward");
+    // ui->rewardaddressLineEdit->setPlaceholderText("Enter a reward receive address");
+    // ui->rewardpercentageLineEdit->setPlaceholderText("Input the % for the reward");
 }
 
 AddEditAdrenalineNode::~AddEditAdrenalineNode()
@@ -68,7 +72,7 @@ void AddEditAdrenalineNode::on_okButton_clicked()
     else if(ui->txhashLineEdit->text() == "")
     {
         QMessageBox msg;
-        msg.setText("Please enter the transaction hash for the transaction that has 2500 coins");
+        msg.setText("Please enter the transaction hash for the transaction that has 100000 coins");
         msg.exec();
         return;
     }

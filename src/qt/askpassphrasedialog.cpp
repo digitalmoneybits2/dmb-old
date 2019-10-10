@@ -39,7 +39,7 @@ AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget *parent) :
             break;
         case UnlockStaking:
             ui->stakingCheckBox->setChecked(false);
-            //ui->stakingCheckBox->show();
+            // ui->stakingCheckBox->show();
             // fallthru
         case Unlock: // Ask passphrase
             ui->warningLabel->setText(tr("This operation needs your wallet passphrase to unlock the wallet."));

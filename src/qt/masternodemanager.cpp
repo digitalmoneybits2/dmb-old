@@ -148,8 +148,8 @@ void MasternodeManager::updateAdrenalineNode(QString alias, QString addr, QStrin
 
     ui->tableWidget_2->setItem(nodeRow, 0, aliasItem);
     ui->tableWidget_2->setItem(nodeRow, 1, addrItem);
-    //ui->tableWidget_2->setItem(nodeRow, 2, rewardPercentageItem);
-   // ui->tableWidget_2->setItem(nodeRow, 3, rewardAddressItem);
+    // ui->tableWidget_2->setItem(nodeRow, 2, rewardPercentageItem);
+    // ui->tableWidget_2->setItem(nodeRow, 3, rewardAddressItem);
     ui->tableWidget_2->setItem(nodeRow, 2, statusItem);
 }
 

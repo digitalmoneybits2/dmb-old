@@ -20,14 +20,19 @@ EditAddressDialog::EditAddressDialog(Mode mode, QWidget *parent) :
     {
     case NewReceivingAddress:
         setWindowTitle(tr("New receiving address"));
+        ui->EditAddressPasteButton->setEnabled(false);
+        ui->EditAddressPasteButton->setVisible(false);
         ui->addressEdit->setEnabled(false);
         ui->addressEdit->setVisible(false);
         ui->stealthCB->setEnabled(true);
         ui->stealthCB->setVisible(true);
+        ui->label_2->setVisible(false);
         break;
     case NewSendingAddress:
         setWindowTitle(tr("New sending address"));
         ui->stealthCB->setVisible(false);
+        ui->EditAddressPasteButton->setEnabled(true);
+        ui->EditAddressPasteButton->setVisible(true);
         break;
     case EditReceivingAddress:
         setWindowTitle(tr("Edit receiving address"));
@@ -35,10 +40,16 @@ EditAddressDialog::EditAddressDialog(Mode mode, QWidget *parent) :
         ui->addressEdit->setVisible(true);
         ui->stealthCB->setEnabled(false);
         ui->stealthCB->setVisible(true);
+        ui->EditAddressPasteButton->setEnabled(false);
+        ui->EditAddressPasteButton->setVisible(false);
         break;
     case EditSendingAddress:
         setWindowTitle(tr("Edit sending address"));
         ui->stealthCB->setVisible(false);
+        ui->addressEdit->setEnabled(false);
+        ui->addressEdit->setVisible(true);
+        ui->EditAddressPasteButton->setEnabled(false);
+        ui->EditAddressPasteButton->setVisible(false);
         break;
     }
 

@@ -37,7 +37,7 @@
 #include "messagemodel.h"
 #include "messagepage.h"
 #include "blockbrowser.h"
-#include "tradingdialog.h"
+// #include "tradingdialog.h"
 
 #ifdef Q_OS_MAC
 #include "macdockiconhandler.h"
@@ -138,8 +138,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
 
 	sendCoinsPage = new SendCoinsDialog(this);
 
-	tradingDialogPage = new tradingDialog(this);
-	tradingDialogPage->setObjectName("tradingDialog");
+	// tradingDialogPage = new tradingDialog(this);
+	// tradingDialogPage->setObjectName("tradingDialog");
 
 	signVerifyMessageDialog = new SignVerifyMessageDialog(this);
 
@@ -156,7 +156,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
 	centralStackedWidget->addWidget(masternodeManagerPage);
 	centralStackedWidget->addWidget(messagePage);
 	centralStackedWidget->addWidget(blockBrowser);
-	centralStackedWidget->addWidget(tradingDialogPage);
+	// centralStackedWidget->addWidget(tradingDialogPage);
 
 	QWidget *centralWidget = new QWidget();
 	QVBoxLayout *centralLayout = new QVBoxLayout(centralWidget);
@@ -230,7 +230,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
 	statusBar()->addWidget(progressBar);
 	statusBar()->addPermanentWidget(frameBlocks);
 	statusBar()->setObjectName("statusBar");
-	statusBar()->setStyleSheet("#statusBar { color: #ffffff; background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 0.6, stop: 0 #101010, stop: 1 #a5268d);  }");
+	statusBar()->setStyleSheet("#statusBar { color: #ffffff; background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 0.6, stop: 0 #101010, stop: 1 #00007a);  }");
 
 	syncIconMovie = new QMovie(fUseBlackTheme ? ":/movies/update_spinner_black" : ":/movies/update_spinner", "mng", this);
 
@@ -238,7 +238,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
 	connect(overviewPage, SIGNAL(transactionClicked(QModelIndex)), this, SLOT(gotoHistoryPage()));
 	connect(overviewPage, SIGNAL(transactionClicked(QModelIndex)), transactionView, SLOT(focusTransaction(QModelIndex)));
 
-	connect(TradingAction, SIGNAL(triggered()), tradingDialogPage, SLOT(InitTrading()));
+	// connect(TradingAction, SIGNAL(triggered()), tradingDialogPage, SLOT(InitTrading()));
 
 	// Double-clicking on a transaction on the transaction history page shows details
 	connect(transactionView, SIGNAL(doubleClicked(QModelIndex)), transactionView, SLOT(showDetails()));
@@ -329,7 +329,7 @@ void BitcoinGUI::createActions()
 	//tabGroup->addAction(TradingAction);
 
 	showBackupsAction = new QAction(QIcon(":/icons/browse"), tr("Show Auto&Backups"), this);
-	showBackupsAction->setStatusTip(tr("S"));
+	//showBackupsAction->setStatusTip(tr("Show AutoBackups"));
 
 	connect(TradingAction, SIGNAL(triggered()), this, SLOT(gotoTradingPage()));
 	connect(blockAction, SIGNAL(triggered()), this, SLOT(gotoBlockBrowser()));
@@ -406,8 +406,8 @@ void BitcoinGUI::createMenuBar()
 	QMenu *file = appMenuBar->addMenu(tr("&File"));
 	file->addAction(backupWalletAction);
 	file->addAction(exportAction);
-	//file->addAction(signMessageAction);
-	//file->addAction(verifyMessageAction);
+	file->addAction(signMessageAction);
+	file->addAction(verifyMessageAction);
 	file->addSeparator();
 	file->addAction(quitAction);
 
@@ -470,7 +470,7 @@ void BitcoinGUI::createToolBars()
 	//	toolbar->addAction(messageAction);
 	//}
 
-	//toolbar->addAction(blockAction);
+	toolbar->addAction(blockAction);
 	//toolbar->addAction(TradingAction);
 	netLabel = new QLabel();
 
@@ -559,7 +559,7 @@ void BitcoinGUI::setWalletModel(WalletModel *walletModel)
 		sendCoinsPage->setModel(walletModel);
 		signVerifyMessageDialog->setModel(walletModel);
 		blockBrowser->setModel(walletModel);
-		tradingDialogPage->setModel(walletModel);
+		// tradingDialogPage->setModel(walletModel);
 
 		setEncryptionStatus(walletModel->getEncryptionStatus());
 		connect(walletModel, SIGNAL(encryptionStatusChanged(int)), this, SLOT(setEncryptionStatus(int)));
