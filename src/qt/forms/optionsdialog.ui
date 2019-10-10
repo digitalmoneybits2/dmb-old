@@ -229,7 +229,7 @@
           <string>Connect to the Digitalmoneybits network through a SOCKS5 proxy (e.g. when connecting through Tor).</string>
          </property>
          <property name="text">
-          <string>&amp;Connect through SOCKS5 proxy:</string>
+          <string>Connect through SOCKS5 &amp;Proxy:</string>
          </property>
         </widget>
        </item>
@@ -328,7 +328,7 @@
           <string>Show only a tray icon after minimizing the window.</string>
          </property>
          <property name="text">
-          <string>&amp;Minimize to the tray instead of the taskbar</string>
+          <string>Minimize to the &amp;tray instead of the taskbar</string>
          </property>
         </widget>
        </item>
@@ -416,14 +416,14 @@
           <string>Whether to show coin control features or not.</string>
          </property>
          <property name="text">
-          <string>Display coin &amp;control features (experts only!)</string>
+          <string>Display coin control &amp;features (experts only!)</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="useBlackTheme">
          <property name="text">
-          <string>Use black visual theme (requires restart)</string>
+          <string>Use &amp;black visual theme (requires restart)</string>
          </property>
         </widget>
        </item>
