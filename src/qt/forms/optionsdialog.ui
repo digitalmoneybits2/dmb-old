@@ -48,7 +48,7 @@
          <item>
           <widget class="QLabel" name="transactionFeeLabel">
            <property name="text">
-            <string>Pay transaction &amp;fee</string>
+            <string>Pay &amp;transaction fee</string>
            </property>
            <property name="textFormat">
             <enum>Qt::PlainText</enum>
@@ -94,7 +94,7 @@
          <item>
           <widget class="QLabel" name="reserveBalanceLabel">
            <property name="text">
-            <string>Reserve</string>
+            <string>Reser&amp;ve</string>
            </property>
            <property name="textFormat">
             <enum>Qt::PlainText</enum>
@@ -238,7 +238,7 @@
          <item>
           <widget class="QLabel" name="proxyIpLabel">
            <property name="text">
-            <string>Proxy &amp;IP:</string>
+            <string>Pro&amp;xy IP:</string>
            </property>
            <property name="textFormat">
             <enum>Qt::PlainText</enum>
@@ -264,7 +264,7 @@
          <item>
           <widget class="QLabel" name="proxyPortLabel">
            <property name="text">
-            <string>&amp;Port:</string>
+            <string>Por&amp;t:</string>
            </property>
            <property name="textFormat">
             <enum>Qt::PlainText</enum>

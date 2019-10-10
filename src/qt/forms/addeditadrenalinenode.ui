@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>331</width>
-    <height>298</height>
+    <width>500</width>
+    <height>330</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -34,120 +34,78 @@
     </widget>
    </item>
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <layout class="QFormLayout" name="formLayout">
      <property name="bottomMargin">
-      <number>0</number>
+      <number>9</number>
      </property>
-     <item>
+     <item row="0" column="0">
       <widget class="QLabel" name="label_4">
        <property name="text">
         <string>Alias*</string>
        </property>
       </widget>
      </item>
-     <item>
+     <item row="0" column="1">
       <widget class="QLineEdit" name="aliasLineEdit"/>
      </item>
-    </layout>
-   </item>
-   <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_5">
-     <property name="bottomMargin">
-      <number>0</number>
-     </property>
-     <item>
+     <item row="1" column="0">
       <widget class="QLabel" name="label_6">
        <property name="text">
         <string>Address*</string>
        </property>
       </widget>
      </item>
-     <item>
+     <item row="1" column="1">
       <widget class="QLineEdit" name="addressLineEdit"/>
      </item>
-    </layout>
-   </item>
-   <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_3">
-     <property name="bottomMargin">
-      <number>0</number>
-     </property>
-     <item>
+     <item row="2" column="0">
       <widget class="QLabel" name="label_5">
        <property name="text">
         <string>PrivKey*</string>
        </property>
       </widget>
      </item>
-     <item>
+     <item row="2" column="1">
       <widget class="QLineEdit" name="privkeyLineEdit"/>
      </item>
-    </layout>
-   </item>
-   <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_2">
-     <property name="bottomMargin">
-      <number>0</number>
-     </property>
-     <item>
+     <item row="3" column="0">
       <widget class="QLabel" name="label_2">
        <property name="text">
         <string>TxHash*</string>
        </property>
       </widget>
      </item>
-     <item>
+     <item row="3" column="1">
       <widget class="QLineEdit" name="txhashLineEdit"/>
      </item>
-    </layout>
-   </item>
-   <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_8">
-     <property name="bottomMargin">
-      <number>0</number>
-     </property>
-     <item>
+     <item row="4" column="0">
       <widget class="QLabel" name="label_8">
        <property name="text">
         <string>Output Index*</string>
        </property>
       </widget>
      </item>
-     <item>
+     <item row="4" column="1">
       <widget class="QLineEdit" name="outputindexLineEdit"/>
      </item>
-    </layout>
-   </item>
-<item>
-    <layout class="QHBoxLayout" name="horizontalLayout_6">
-     <property name="bottomMargin">
-      <number>0</number>
-     </property>
-     <item>
+     <item row="5" column="0">
       <widget class="QLabel" name="label_3">
        <property name="text">
         <string>Reward Address</string>
        </property>
       </widget>
-     </item> 
-     <item>
+     </item>
+     <item row="5" column="1">
       <widget class="QLineEdit" name="rewardaddressLineEdit"/>
      </item>
-    </layout>
-   </item>
-   <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_7">
-     <property name="bottomMargin">
-      <number>0</number>
-     </property>
-     <item>
+     <item row="6" column="0">
       <widget class="QLabel" name="label_7">
        <property name="text">
         <string>Reward %</string>
        </property>
       </widget>
      </item>
-     <item>
+     <item row="6" column="1">
       <widget class="QLineEdit" name="rewardpercentageLineEdit"/>
      </item>
     </layout>
