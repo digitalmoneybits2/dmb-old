@@ -1,50 +1,115 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ca_ES" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ca_ES">
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
+        <location filename="../forms/aboutdialog.ui" line="+20"/>
         <source>About Digitalmoneybits</source>
         <translation>Sobre Digitalmoneybits</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+26"/>
         <source>&lt;b&gt;Digitalmoneybits&lt;/b&gt; version</source>
         <translation>versió &lt;b&gt;Digitalmoneybits&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
+        <source>Copyright © 2009-2014 The Bitcoin Developers
+Copyright © 2012-2014 The NovaCoin Developers
+Copyright © 2017-2019 The Digitalmoneybits Developers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>&lt;a href=&quot;https://www.digitalmoneybits.org/&quot;&gt;https://www.digitalmoneybits.org/&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;/span&gt;&lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;. This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;/span&gt;&lt;a href=&quot;https://www.openssl.org/&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;https://www.openssl.org/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;) and cryptographic software written by Eric Young (&lt;/span&gt;&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;eay@cryptsoft.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;) and UPnP software written by Thomas Bernard.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2015-2017 The Digitalmoneybits developers</source>
-        <translation>Copyright © 2009-2014 The Bitcoin developers
+        <translation type="vanished">Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2015-2017 The Digitalmoneybits developers</translation>
     </message>
+</context>
+<context>
+    <name>AddEditAdrenalineNode</name>
+    <message>
+        <location filename="../forms/addeditadrenalinenode.ui" line="+14"/>
+        <source>Add/Edit Masternode</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <location line="+15"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enter an Alias for your Masternode and its address (clearnet IP and port). The address should be in the format xxx.xxx.xxx.xxx:32097. You must send exactly 100000 DMB to the masternode wallet address.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Alias*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Address*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>PrivKey*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>TxHash*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Output Index*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Reward Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Reward %</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;OK</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>&amp;Cancel</source>
+        <translation type="unfinished">&amp;Cancel·la</translation>
     </message>
 </context>
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
+        <location filename="../forms/addressbookpage.ui" line="+20"/>
         <source>Address Book</source>
         <translation>Llibreta d&apos;adreces</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Double-click to edit address or label</source>
-        <translation>Feu doble clic per editar l&apos;adreça o l&apos;etiqueta</translation>
+        <translation type="vanished">Feu doble clic per editar l&apos;adreça o l&apos;etiqueta</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+46"/>
         <source>Create a new address</source>
         <translation>Crear una nova adreça</translation>
     </message>
@@ -59,12 +124,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Nova adreça</translation>
     </message>
     <message>
-        <location line="-43"/>
         <source>These are your Digitalmoneybits addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de Digitalmoneybits per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <translation type="vanished">Aquestes són les teves adreces de Digitalmoneybits per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="+10"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Copiar adreça</translation>
     </message>
@@ -94,7 +158,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça Digitalmoneybits especificada.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-77"/>
+        <source>These are your addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Double-click to edit label</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+64"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verificar el missatge</translation>
     </message>
@@ -104,7 +178,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Esborrar</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+65"/>
+        <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
         <translation>Copiar &amp;Etiqueta</translation>
     </message>
@@ -114,7 +188,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Editar</translation>
     </message>
     <message>
-        <location line="+250"/>
+        <location line="+252"/>
         <source>Export Address Book Data</source>
         <translation>Exportar dades de la llibreta d&apos;adreces </translation>
     </message>
@@ -137,7 +211,7 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+145"/>
+        <location filename="../addresstablemodel.cpp" line="+157"/>
         <source>Label</source>
         <translation>Etiqueta</translation>
     </message>
@@ -150,6 +224,19 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+36"/>
         <source>(no label)</source>
         <translation>(sense etiqueta)</translation>
+    </message>
+</context>
+<context>
+    <name>AdrenalineNodeConfigDialog</name>
+    <message>
+        <location filename="../forms/adrenalinenodeconfigdialog.ui" line="+14"/>
+        <source>Masternode Configuration Template</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This pane shows an example Digitalmoneybits.conf template with the necessary masternode settings.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -254,7 +341,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-140"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+82"/>
@@ -304,14 +391,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
+    <name>BanTableModel</name>
+    <message>
+        <location filename="../bantablemodel.cpp" line="+89"/>
+        <source>IP/Netmask</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Banned Until</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+297"/>
+        <location filename="../bitcoingui.cpp" line="+375"/>
         <source>Sign &amp;message...</source>
         <translation>Signar &amp;missatge...</translation>
     </message>
     <message>
-        <location line="-64"/>
+        <location line="-96"/>
         <source>Show general overview of wallet</source>
         <translation>Mostra panorama general del moneder</translation>
     </message>
@@ -326,12 +426,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cerca a l&apos;historial de transaccions</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>&amp;Address Book</source>
-        <translation>&amp;Llibreta d&apos;adreces</translation>
+        <translation type="vanished">&amp;Llibreta d&apos;adreces</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <source>Edit the list of stored addresses and labels</source>
         <translation>Edició de la llista d&apos;adreces i etiquetes emmagatzemades</translation>
     </message>
@@ -341,7 +440,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Mostra la llista d&apos;adreces per rebre pagaments</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+66"/>
         <source>E&amp;xit</source>
         <translation>S&amp;ortir</translation>
     </message>
@@ -391,12 +490,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Exportar...</translation>
     </message>
     <message>
-        <location line="-55"/>
+        <location line="-87"/>
         <source>Send coins to a Digitalmoneybits address</source>
         <translation>Enviar monedes a una adreça Digitalmoneybits</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+71"/>
         <source>Modify configuration options for Digitalmoneybits</source>
         <translation>Modificar les opcions de configuració per a Digitalmoneybits</translation>
     </message>
@@ -436,18 +535,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Verifica el missatge..</translation>
     </message>
     <message>
-        <location line="-214"/>
-        <location line="+551"/>
+        <location line="-277"/>
+        <location line="+658"/>
         <source>Digitalmoneybits</source>
         <translation>Digitalmoneybits</translation>
     </message>
     <message>
-        <location line="-551"/>
+        <location line="-658"/>
         <source>Wallet</source>
         <translation>Moneder</translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+256"/>
         <source>&amp;About Digitalmoneybits</source>
         <translation>&amp;Sobre Digitalmoneybits</translation>
     </message>
@@ -472,7 +571,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Bloquejar moneder</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+32"/>
         <source>&amp;File</source>
         <translation>&amp;Arxiu</translation>
     </message>
@@ -482,34 +581,37 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Configuració</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>&amp;Help</source>
         <translation>&amp;Ajuda</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+19"/>
         <source>Tabs toolbar</source>
         <translation>Barra d&apos;eines de seccions</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+67"/>
         <location line="+9"/>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
     <message>
         <location line="+0"/>
-        <location line="+58"/>
+        <location line="+82"/>
         <source>Digitalmoneybits client</source>
         <translation>Client Digitalmoneybits</translation>
     </message>
     <message numerus="yes">
-        <location line="+70"/>
+        <location line="+71"/>
         <source>%n active connection(s) to Digitalmoneybits network</source>
-        <translation><numerusform>%n conexió activa a la xarxa Digitalmoneybits</numerusform><numerusform>%n conexions actives a la xarxa Digitalmoneybits</numerusform></translation>
+        <translation>
+            <numerusform>%n conexió activa a la xarxa Digitalmoneybits</numerusform>
+            <numerusform>%n conexions actives a la xarxa Digitalmoneybits</numerusform>
+        </translation>
     </message>
     <message>
-        <location line="+488"/>
+        <location line="+585"/>
         <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
         <translation>Fent &quot;stake&quot;.&lt;br&gt;El teu pes és %1&lt;br&gt;El pes de la xarxa és %2&lt;br&gt;El temps estimat per a guanyar una recompensa és 3%</translation>
     </message>
@@ -534,27 +636,77 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>No s&apos;està fent &quot;stake&quot; perquè no tens monedes madures</translation>
     </message>
     <message>
-        <location line="-808"/>
+        <location line="-990"/>
         <source>&amp;Dashboard</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Receive</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+12"/>
+        <source>&amp;Addresses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>&amp;Masternodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show Master Nodes status and configure your nodes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>&amp;Messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>View and Send Encrypted messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>&amp;Block Explorer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Explore the BlockChain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>&amp;Bittrex</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Start Trading</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Show Auto&amp;Backups</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+40"/>
         <source>&amp;Unlock Wallet...</source>
         <translation>&amp;Desbloquejar moneder</translation>
     </message>
     <message>
-        <location line="+273"/>
+        <location line="+317"/>
         <source>Up to date</source>
         <translation>Al dia</translation>
     </message>
@@ -564,12 +716,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Posar-se al dia ...</translation>
     </message>
     <message>
-        <location line="+113"/>
+        <location line="+128"/>
         <source>Confirm transaction fee</source>
         <translation>Confirmeu comisió</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+26"/>
         <source>Sent transaction</source>
         <translation>Transacció enviada</translation>
     </message>
@@ -588,7 +740,21 @@ Address: %4
         <translation>Data: %1\nQuantitat %2\n Tipus: %3\n Adreça: %4\n</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+27"/>
+        <source>Incoming Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Date: %1
+From Address: %2
+To Address: %3
+Message: %4
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+148"/>
         <location line="+15"/>
         <source>URI handling</source>
         <translation>Manejant URI</translation>
@@ -600,9 +766,14 @@ Address: %4
         <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça Digitalmoneybits no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+8"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked for staking only&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Wallet is &lt;b&gt;not encrypted&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+8"/>
@@ -615,7 +786,7 @@ Address: %4
         <translation>El moneder està &lt;b&gt;encriptat&lt;/b&gt; i actualment &lt;b&gt;bloquejat&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+26"/>
         <source>Backup Wallet</source>
         <translation>Realitzar còpia de seguretat del moneder</translation>
     </message>
@@ -635,98 +806,199 @@ Address: %4
         <translation>Hi ha un error al tractar de salvar les dades del seu moneder a la nova ubicació.</translation>
     </message>
     <message numerus="yes">
-        <location line="+91"/>
+        <location line="+92"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n segon</numerusform><numerusform>%n segons</numerusform></translation>
+        <translation>
+            <numerusform>%n segon</numerusform>
+            <numerusform>%n segons</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minut</numerusform><numerusform>%n minuts</numerusform></translation>
+        <translation>
+            <numerusform>%n minut</numerusform>
+            <numerusform>%n minuts</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
-        <location line="-429"/>
-        <location line="+433"/>
+        <location line="-535"/>
+        <location line="+539"/>
         <source>%n hour(s)</source>
-        <translation><numerusform>%n hora</numerusform><numerusform>%n hores</numerusform></translation>
+        <translation>
+            <numerusform>%n hora</numerusform>
+            <numerusform>%n hores</numerusform>
+        </translation>
     </message>
     <message>
-        <location line="-456"/>
+        <location line="-562"/>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+27"/>
-        <location line="+433"/>
+        <location line="+539"/>
         <source>%n day(s)</source>
-        <translation><numerusform>%n dia</numerusform><numerusform>%n dies</numerusform></translation>
+        <translation>
+            <numerusform>%n dia</numerusform>
+            <numerusform>%n dies</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
-        <location line="-429"/>
+        <location line="-535"/>
         <location line="+6"/>
         <source>%n week(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
         <location line="+0"/>
         <source>%1 and %2</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+0"/>
         <source>%n year(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>%1 behind</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Error</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Avís</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+84"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+324"/>
+        <location line="+415"/>
         <source>Not staking</source>
         <translation>No s&apos;està fent &quot;stake&quot; </translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+104"/>
+        <location filename="../bitcoin.cpp" line="+105"/>
         <source>A fatal error occurred. Digitalmoneybits can no longer continue safely and will quit.</source>
         <translation>S&apos;ha produït un error fatal. Digitalmoneybits ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
+    <name>BlockBrowser</name>
+    <message>
+        <location filename="../forms/blockbrowser.ui" line="+35"/>
+        <source>Form</source>
+        <translation type="unfinished">Formulari</translation>
+    </message>
+    <message>
+        <location line="+32"/>
+        <source>Block Explorer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+49"/>
+        <source>Jump to Block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Block Hash:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Block Timestamp:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Block nBits:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>Block Merkle:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Block Height:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+52"/>
+        <source>Block Difficulty:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Block nNonce:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Decode Transaction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>Transaction ID:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>Value out:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Inputs:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Fees:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>Outputs:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+110"/>
+        <location filename="../clientmodel.cpp" line="+149"/>
         <source>Network Alert</source>
         <translation>Alerta de xarxa</translation>
     </message>
@@ -769,12 +1041,32 @@ Address: %4
         <translation>Sortida baixa:</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="+552"/>
+        <location line="+131"/>
+        <source>toggle lock state</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Tree &amp;mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&amp;List mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>(1 locked)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="+659"/>
         <source>no</source>
         <translation>no</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="+51"/>
+        <location filename="../forms/coincontroldialog.ui" line="-107"/>
         <source>After Fee:</source>
         <translation>Quota posterior:</translation>
     </message>
@@ -784,22 +1076,20 @@ Address: %4
         <translation>Canvi:</translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+38"/>
         <source>(un)select all</source>
         <translation>(de)seleccionar tot</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Tree mode</source>
-        <translation>Mode arbre</translation>
+        <translation type="vanished">Mode arbre</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>List mode</source>
-        <translation>Mode llista</translation>
+        <translation type="vanished">Mode llista</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+77"/>
         <source>Amount</source>
         <translation>Quantitat</translation>
     </message>
@@ -812,6 +1102,11 @@ Address: %4
         <location line="+5"/>
         <source>Address</source>
         <translation>Adreça</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Darksend Rounds</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -834,7 +1129,7 @@ Address: %4
         <translation>Prioritat</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="-515"/>
+        <location filename="../coincontroldialog.cpp" line="-617"/>
         <source>Copy address</source>
         <translation>Copiar adreça </translation>
     </message>
@@ -855,7 +1150,17 @@ Address: %4
         <translation>Copiar ID de transacció</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+1"/>
+        <source>Lock unspent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Unlock unspent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+22"/>
         <source>Copy quantity</source>
         <translation>Copiar quantitat</translation>
     </message>
@@ -890,7 +1195,17 @@ Address: %4
         <translation>Copiar canvi</translation>
     </message>
     <message>
-        <location line="+317"/>
+        <location line="+154"/>
+        <source>Please switch to &quot;List mode&quot; to use this function.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+205"/>
+        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
         <source>highest</source>
         <translation>El més alt</translation>
     </message>
@@ -925,7 +1240,12 @@ Address: %4
         <translation>el més baix</translation>
     </message>
     <message>
-        <location line="+155"/>
+        <location line="+11"/>
+        <source>(%1 locked)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+175"/>
         <source>DUST</source>
         <translation>POLS</translation>
     </message>
@@ -983,13 +1303,13 @@ Les quantitats inferiors a 0.546 vegades la quota mínima del relé es mostren c
 En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
-        <location line="+36"/>
-        <location line="+66"/>
+        <location line="+42"/>
+        <location line="+61"/>
         <source>(no label)</source>
         <translation>(sense etiqueta)</translation>
     </message>
     <message>
-        <location line="-9"/>
+        <location line="-7"/>
         <source>change from %1 (%2)</source>
         <translation>canvi desde %1 (%2)</translation>
     </message>
@@ -997,6 +1317,96 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+1"/>
         <source>(change)</source>
         <translation>(canviar)</translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DarksendConfig</name>
+    <message>
+        <location filename="../forms/darksendconfig.ui" line="+14"/>
+        <source>Configure Darksend</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Basic Privacy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>High Privacy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Maximum Privacy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Please select a privacy level.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Use 2 separate masternodes to mix funds up to 1000 DMB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Use 8 separate masternodes to mix funds up to 1000 DMB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Use 16 separate masternodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>This option is the quickest and will cost about ~0.025 DMB to anonymize 1000 DMB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>This option is moderately fast and will cost about 0.05 DMB to anonymize 1000 DMB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>0.1 DMB per 1000 DMB you anonymize.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../darksendconfig.cpp" line="+43"/>
+        <location line="+15"/>
+        <location line="+15"/>
+        <source>Darksend Configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-29"/>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Digitalmoneybits&apos;s configuration screen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Digitalmoneybits&apos;s configuration screen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Bitcoin&apos;s configuration screen.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1007,47 +1417,62 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Editar Adreça</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+32"/>
         <source>&amp;Label</source>
         <translation>&amp;Etiqueta</translation>
     </message>
     <message>
         <location line="+10"/>
+        <source>Paste address from clipboard</source>
+        <translation type="unfinished">Enganxar adreça del porta-retalls</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Alt+P</source>
+        <translation type="unfinished">Alt+P</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>&amp;Stealth Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-36"/>
         <source>The label associated with this address book entry</source>
         <translation>L&apos;etiqueta associada amb aquesta entrada de la llibreta d&apos;adreces</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-10"/>
         <source>&amp;Address</source>
         <translation>&amp;Direcció</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-7"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
         <translation>La direcció associada amb aquesta entrada de la llibreta d&apos;adreces. Només pot ser modificada per a l&apos;enviament d&apos;adreces.</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
+        <location filename="../editaddressdialog.cpp" line="+22"/>
         <source>New receiving address</source>
         <translation>Nova adreça de recepció.</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+10"/>
         <source>New sending address</source>
         <translation>Nova adreça d&apos;enviament</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Edit receiving address</source>
         <translation>Editar adreces de recepció</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+9"/>
         <source>Edit sending address</source>
         <translation>Editar adreces d&apos;enviament</translation>
     </message>
     <message>
-        <location line="+76"/>
+        <location line="+86"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>L&apos;adreça introduïda &quot;%1&quot; ja és present a la llibreta d&apos;adreces.</translation>
     </message>
@@ -1070,7 +1495,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
     <message>
-        <location filename="../guiutil.cpp" line="+426"/>
+        <location filename="../guiutil.cpp" line="+690"/>
         <location line="+12"/>
         <source>Digitalmoneybits-Qt</source>
         <translation>Digitalmoneybits-Qt</translation>
@@ -1112,6 +1537,455 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
 </context>
 <context>
+    <name>MRichTextEdit</name>
+    <message>
+        <location filename="../plugins/mrichtexteditor/mrichtextedit.ui" line="+56"/>
+        <source>Paragraph formatting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Undo (CTRL+Z)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Undo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <location line="+3"/>
+        <source>Redo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Cut (CTRL+X)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Cut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Copy (CTRL+C)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Paste (CTRL+V)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Paste</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Link (CTRL+L)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+34"/>
+        <source>Bold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Italic (CTRL+I)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Italic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Underline (CTRL+U)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Underline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Strike Out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Bullet list (CTRL+-)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Bullet list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Ordered list (CTRL+=)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Ordered list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Decrease indentation (CTRL+,)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Decrease indentation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Increase indentation (CTRL+.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Increase indentation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Text background color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Font size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/mrichtexteditor/mrichtextedit.cpp" line="+59"/>
+        <source>Standard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Heading 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Heading 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Heading 3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Heading 4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Monospace</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+143"/>
+        <source>Create a link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Link URL:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MasternodeManager</name>
+    <message>
+        <location filename="../forms/masternodemanager.ui" line="+14"/>
+        <source>Form</source>
+        <translation type="unfinished">Formulari</translation>
+    </message>
+    <message>
+        <location line="+27"/>
+        <source>Digitalmoneybits Network</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Protocol</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Activity time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Last Seen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Masternode pubkey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Masternodes count:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>0</source>
+        <translation type="unfinished">0</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>My Masternodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>&amp;Create...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>Alias</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>IP Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Status</source>
+        <translation type="unfinished">Estat</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>&amp;Update</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+34"/>
+        <source>S&amp;tart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>St&amp;art All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../masternodemanager.cpp" line="+88"/>
+        <source>Copy Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy Pubkey</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MessageModel</name>
+    <message>
+        <location filename="../messagemodel.cpp" line="+310"/>
+        <source>Type</source>
+        <translation type="unfinished">Tipus</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Sent Date Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Received Date Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Label</source>
+        <translation type="unfinished">Etiqueta</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>To Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>From Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Message</source>
+        <translation type="unfinished">Missatge</translation>
+    </message>
+    <message>
+        <location line="+82"/>
+        <source>Send Secure Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send failed: %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+67"/>
+        <source>(no label)</source>
+        <translation type="unfinished">(sense etiqueta)</translation>
+    </message>
+</context>
+<context>
+    <name>MessagePage</name>
+    <message>
+        <location filename="../forms/messagepage.ui" line="+14"/>
+        <source>Address Book</source>
+        <translation type="unfinished">Llibreta d&apos;adreces</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>These are your sent and received encrypted messages. Click on an item to read it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Click on a message to view it</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+50"/>
+        <source>&amp;Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Contact:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+54"/>
+        <source>&amp;Conversation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Sign a message to prove you own a Digitalmoneybits address</source>
+        <translation type="unfinished">Signar un missatge per demostrar que és propietari d&apos;una adreça Digitalmoneybits</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Send</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <location line="+14"/>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation type="unfinished">Copiar l&apos;adreça seleccionada al porta-retalls del sistema</translation>
+    </message>
+    <message>
+        <location line="-11"/>
+        <source>&amp;Copy From Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Copy To &amp;Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Delete the currently selected address from the list</source>
+        <translation type="unfinished">Esborrar l&apos;adreça sel·leccionada</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Delete</source>
+        <translation type="unfinished">&amp;Esborrar</translation>
+    </message>
+    <message>
+        <location filename="../messagepage.cpp" line="+182"/>
+        <source>Send Secure Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send failed: %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+213"/>
+        <source>Export Messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Comma separated file (*.csv)</source>
+        <translation type="unfinished">Arxiu de separació per comes (*.csv)</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>Error exporting</source>
+        <translation type="unfinished">Error a l&apos;exportar</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Could not write to file %1.</source>
+        <translation type="unfinished">No s&apos;ha pogut escriure al fitxer %1.</translation>
+    </message>
+</context>
+<context>
     <name>OptionsDialog</name>
     <message>
         <location filename="../forms/optionsdialog.ui" line="+14"/>
@@ -1129,22 +2003,20 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Comisió opcional per kB que ajuda a assegurar-se que les seves transaccions es processen ràpidament. La majoria de les transaccions són 1 kB. Comisió d&apos;0.01 recomenada.</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>Pagar &amp;comisió de transacció</translation>
+        <translation type="vanished">Pagar &amp;comisió de transacció</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+46"/>
         <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
         <translation>La quantitat reservada no participa en fer &quot;stake&quot; i per tant esta disponible en qualsevol moment.</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Reserve</source>
-        <translation>Reserva</translation>
+        <translation type="vanished">Reserva</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+46"/>
         <source>Automatically start Digitalmoneybits after logging in to the system.</source>
         <translation>Inicia automàticament Digitalmoneybits després d&apos;entrar en el sistema.</translation>
     </message>
@@ -1154,7 +2026,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>&amp;Iniciar Digitalmoneybits amb l&apos;inici de sessió</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+82"/>
         <source>&amp;Network</source>
         <translation>&amp;Xarxa</translation>
     </message>
@@ -1169,47 +2041,91 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Obrir ports amb &amp;UPnP</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Connect to the Digitalmoneybits network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa Digitalmoneybits través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <translation type="vanished">Connecteu-vos a la xarxa Digitalmoneybits través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Conectar a través d&apos;un proxy SOCKS:</translation>
+        <translation type="vanished">&amp;Conectar a través d&apos;un proxy SOCKS:</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation>&amp;IP del proxy:</translation>
+        <translation type="vanished">&amp;IP del proxy:</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+38"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
         <translation>Adreça IP del servidor proxy (per exemple, 127.0.0.1)</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation>&amp;Port:</translation>
+        <translation type="vanished">&amp;Port:</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+26"/>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Port del proxy (per exemple 9050)</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation>&amp;Versió de SOCKS:</translation>
+        <translation type="vanished">&amp;Versió de SOCKS:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>Versió SOCKS del proxy (per exemple 5)</translation>
+        <translation type="vanished">Versió SOCKS del proxy (per exemple 5)</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="-235"/>
+        <source>Pay &amp;transaction fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+46"/>
+        <source>Reser&amp;ve</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+54"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This setting determines the amount of individual masternodes that an input will be anonymized through. More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Darksend rounds to use</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>This amount acts as a threshold to turn off Darksend once it&apos;s reached.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Amount of Digitalmoneybits to keep anonymized</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Connect to the Digitalmoneybits network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Connect through SOCKS5 proxy:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Pro&amp;xy IP:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Por&amp;t:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
         <source>&amp;Window</source>
         <translation>&amp;Finestra</translation>
     </message>
@@ -1270,18 +2186,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Whether to select the coin outputs randomly or with minimal coin age.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Minimize weight consumption (experimental)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>Use black visual theme (requires restart)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1304,7 +2210,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Per defecte</translation>
     </message>
     <message>
-        <location line="+149"/>
+        <location line="+151"/>
         <location line="+9"/>
         <source>Warning</source>
         <translation>Avís</translation>
@@ -1324,89 +2230,405 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
+        <location filename="../forms/overviewpage.ui" line="+15"/>
         <source>Form</source>
         <translation>Formulari</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <location line="+247"/>
+        <location line="+43"/>
+        <source>Balances</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <location line="+424"/>
+        <location line="+681"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Digitalmoneybits network after a connection is established, but this process has not completed yet.</source>
         <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa Digitalmoneybits després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
-        <location line="-173"/>
+        <location line="-1060"/>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+128"/>
+        <source>Current total balance in watch-only addresses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Watch-only:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Available:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+32"/>
         <source>Stake:</source>
         <translation>En &quot;stake&quot;:</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+41"/>
+        <source>Total of coins that was staked in watch-only addresses, and do not yet count toward the current watch-only balance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Your current balance in watch-only addresses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Pending:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+54"/>
+        <location filename="../overviewpage.cpp" line="+513"/>
+        <location line="+11"/>
+        <location line="+10"/>
+        <location line="+14"/>
+        <source>Darksend</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+480"/>
+        <source>Status:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Completion:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Darksend Balance:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Amount and Rounds:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>0 DMB / 0 Rounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Submitted Denom:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enabled/Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>(Last Message)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Try to manually submit a Darksend request.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Try Mix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Start/Stop Mixing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Reset the current status of Darksend (can interrupt Darksend if it&apos;s in the process of Mixing, which can cost you money!)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+44"/>
+        <source>Recent transactions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Unconfirmed:</source>
-        <translation>Sense confirmar:</translation>
+        <translation type="vanished">Sense confirmar:</translation>
     </message>
     <message>
-        <location line="-113"/>
         <source>Wallet</source>
-        <translation>Moneder</translation>
+        <translation type="vanished">Moneder</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="-725"/>
         <source>Spendable:</source>
         <translation>Disponible:</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="-105"/>
         <source>Your current spendable balance</source>
         <translation>El balanç de saldo actual disponible</translation>
     </message>
     <message>
-        <location line="+80"/>
+        <location line="-83"/>
         <source>Immature:</source>
         <translation>Immatur:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="-29"/>
         <source>Mined balance that has not yet matured</source>
         <translation>Balanç minat que encara no ha madurat</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="-16"/>
         <source>Total:</source>
         <translation>Total:</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+61"/>
         <source>Your current total balance</source>
         <translation>El seu balanç total</translation>
     </message>
     <message>
-        <location line="+50"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Transaccions recents&lt;/b&gt;</translation>
+        <translation type="vanished">&lt;b&gt;Transaccions recents&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="-118"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Total de transaccions que encara no s&apos;han confirmat, i encara no compten per al balanç actual</translation>
+        <translation type="vanished">Total de transaccions que encara no s&apos;han confirmat, i encara no compten per al balanç actual</translation>
     </message>
     <message>
-        <location line="-32"/>
+        <location line="+99"/>
         <source>Total of coins that was staked, and do not yet count toward the current balance</source>
         <translation>Total de les monedes que s&apos;han posat a fer &quot;stake&quot; (en joc, aposta), i encara no compten per al balanç actual</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
+        <location filename="../overviewpage.cpp" line="-407"/>
+        <location line="+1"/>
         <location line="+1"/>
         <source>out of sync</source>
         <translation>Fora de sincronia</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <location line="+1"/>
+        <location line="+1"/>
+        <location line="+312"/>
+        <source>Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-308"/>
+        <location line="+310"/>
+        <location line="+95"/>
+        <source>Start Darksend Mixing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-403"/>
+        <location line="+406"/>
+        <source>Stop Darksend Mixing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-215"/>
+        <location line="+5"/>
+        <source>No inputs detected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location line="-2"/>
+        <location line="+36"/>
+        <location line="+10"/>
+        <source>%n Rounds</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location line="-13"/>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Not enough compatible inputs to anonymize &lt;span style=&apos;color:red;&apos;&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style=&apos;color:red;&apos;&gt;%2&lt;/span&gt; instead</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+46"/>
+        <source>Overall progress</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Denominated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Mixed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Anonymized</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location line="+1"/>
+        <source>Denominated inputs have %5 of %n rounds on average</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Last Darksend message:
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>N/A</source>
+        <translation type="unfinished">N/A</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Darksend was successfully reset.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>If you don&apos;t want to see internal Darksend fees/transactions select &quot;Received By&quot; as Type on the &quot;Transactions&quot; tab.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Darksend requires at least %1 to use.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start transfer: click-to-pay handler</source>
-        <translation type="unfinished"/>
+        <source>Cannot start Digitalmoneybits: click-to-pay handler</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <location filename="../peertablemodel.cpp" line="+122"/>
+        <source>Address/Hostname</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>User Agent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Ping Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="../bitcoinunits.cpp" line="+209"/>
+        <source>Amount</source>
+        <translation type="unfinished">Quantitat</translation>
+    </message>
+    <message>
+        <location filename="../guiutil.cpp" line="+98"/>
+        <source>%1 d</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 h</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 m</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <location line="+34"/>
+        <location line="+5"/>
+        <source>%1 s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-22"/>
+        <source>NETWORK</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>UNKNOWN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>N/A</source>
+        <translation type="unfinished">N/A</translation>
     </message>
 </context>
 <context>
@@ -1422,22 +2644,30 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Sol·licitud de pagament</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+12"/>
+        <source>&amp;Label:</source>
+        <translation type="unfinished">&amp;Etiqueta:</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>&amp;Message:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Amount:</source>
         <translation>Quantitat:</translation>
     </message>
     <message>
-        <location line="-44"/>
         <source>Label:</source>
-        <translation>Etiqueta:</translation>
+        <translation type="vanished">Etiqueta:</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Message:</source>
-        <translation>Missatge:</translation>
+        <translation type="vanished">Missatge:</translation>
     </message>
     <message>
-        <location line="+71"/>
+        <location line="+46"/>
         <source>&amp;Save As...</source>
         <translation>&amp;Desa com ...</translation>
     </message>
@@ -1470,7 +2700,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
+        <location filename="../forms/rpcconsole.ui" line="+45"/>
         <source>Client name</source>
         <translation>Nom del client</translation>
     </message>
@@ -1481,23 +2711,38 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+36"/>
+        <location line="+23"/>
         <location line="+53"/>
         <location line="+23"/>
+        <location line="+627"/>
+        <location line="+39"/>
+        <location line="+23"/>
+        <location line="+30"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+26"/>
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
     <message>
-        <location line="-194"/>
+        <location line="-1169"/>
         <source>Client version</source>
         <translation>Versió del client</translation>
     </message>
     <message>
-        <location line="-45"/>
+        <location line="-44"/>
         <source>&amp;Information</source>
         <translation>&amp;Informació</translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+67"/>
         <source>Using OpenSSL version</source>
         <translation>Utilitzant OpenSSL versió</translation>
     </message>
@@ -1518,6 +2763,11 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+23"/>
+        <source>Number of masternodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>On testnet</source>
         <translation>A testnet</translation>
     </message>
@@ -1532,47 +2782,155 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Nombre de blocs actuals</translation>
     </message>
     <message>
-        <location line="+197"/>
+        <location line="+200"/>
+        <source>Copy to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+48"/>
+        <source>Paste from clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Alt+P</source>
+        <translation type="unfinished">Alt+P</translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <source>&amp;Network Traffic</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+52"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Totals</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+64"/>
         <source>In:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+80"/>
         <source>Out:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="+41"/>
+        <source>&amp;Peers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+50"/>
+        <source>Banned peers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+57"/>
+        <location filename="../rpcconsole.cpp" line="+226"/>
+        <location line="+416"/>
+        <location line="+165"/>
+        <source>Select a peer to view detailed information.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>User Agent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>Services</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Connection Time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Sync Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Starting Height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Ban Score</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Connection Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Last Send</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Last Recieve</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Last Send:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Bytes Received</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Ping Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Time Offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-926"/>
         <source>Last block time</source>
         <translation>Últim temps de bloc</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+45"/>
         <source>&amp;Open</source>
         <translation>&amp;Obrir</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+71"/>
         <source>Command-line options</source>
         <translation>Opcions de la línia d&apos;ordres</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-25"/>
         <source>Show the Digitalmoneybits-Qt help message to get a list with possible Digitalmoneybits command-line options.</source>
         <translation>Mostra el missatge d&apos;ajuda de Digitalmoneybits-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres Digitalmoneybits.</translation>
     </message>
@@ -1582,42 +2940,79 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>&amp;Mostra</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+47"/>
         <source>&amp;Console</source>
         <translation>&amp;Consola</translation>
     </message>
     <message>
-        <location line="-237"/>
+        <location line="-299"/>
         <source>Build date</source>
         <translation>Data de compilació</translation>
     </message>
     <message>
-        <location line="-104"/>
+        <location line="-103"/>
         <source>Digitalmoneybits - Debug window</source>
         <translation>Digitalmoneybits - Finestra Depuració</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+24"/>
         <source>Digitalmoneybits Core</source>
         <translation>Nucli Digitalmoneybits</translation>
     </message>
     <message>
-        <location line="+256"/>
+        <location line="+304"/>
         <source>Debug log file</source>
         <translation>Dietàri de depuració</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-25"/>
         <source>Open the Digitalmoneybits debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Obriu el fitxer de registre de depuració Digitalmoneybits des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
-        <location line="+102"/>
         <source>Clear console</source>
-        <translation>Netejar consola</translation>
+        <translation type="vanished">Netejar consola</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="+325"/>
+        <location filename="../rpcconsole.cpp" line="-504"/>
+        <source>&amp;Disconnect Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location line="+1"/>
+        <location line="+1"/>
+        <location line="+1"/>
+        <source>Ban Node for</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-3"/>
+        <source>1 &amp;hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>1 &amp;day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>1 &amp;week</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>1 &amp;year</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+46"/>
+        <source>&amp;Unban Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+66"/>
         <source>Welcome to the Digitalmoneybits RPC console.</source>
         <translation>Benvingut a la consola RPC de Digitalmoneybits.</translation>
     </message>
@@ -1632,52 +3027,68 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Escriu &lt;b&gt;help&lt;\b&gt; per a obtenir una llistat de les ordres disponibles.</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+140"/>
         <source>%1 B</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 KB</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 MB</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 GB</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>%1 m</source>
-        <translation type="unfinished"/>
+        <location line="+114"/>
+        <source>via %1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>%1 h</source>
-        <translation type="unfinished"/>
+        <location line="+3"/>
+        <location line="+1"/>
+        <source>never</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Inbound</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Outbound</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>%1 h %2 m</source>
-        <translation type="unfinished"/>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Fetching...</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+181"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
+        <location filename="../sendcoinsdialog.cpp" line="+633"/>
+        <location line="+16"/>
         <source>Send Coins</source>
         <translation>Enviar monedes</translation>
     </message>
@@ -1792,6 +3203,16 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+24"/>
+        <source>Darksend</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>InstantX</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Balance:</source>
         <translation>Balanç:</translation>
     </message>
@@ -1811,12 +3232,16 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>E&amp;nviar</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-173"/>
         <source>Enter a Digitalmoneybits address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça Digitalmoneybits (p.ex. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation type="vanished">Introdueix una adreça Digitalmoneybits (p.ex. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location filename="../sendcoinsdialog.cpp" line="-603"/>
+        <source>Enter Digitalmoneybits address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+43"/>
         <source>Copy quantity</source>
         <translation>Copiar quantitat</translation>
     </message>
@@ -1856,74 +3281,152 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Copiar canvi</translation>
     </message>
     <message>
-        <location line="+86"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; a %2 (%3)</translation>
+        <location line="+156"/>
+        <location line="+6"/>
+        <location line="+9"/>
+        <source>using</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-15"/>
+        <location line="+6"/>
+        <source>anonymous funds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
+        <source>any available funds (not recommended)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>and InstantX</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>%1 to %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+48"/>
+        <source>Are you sure you want to send?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>are added as transaction fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+250"/>
+        <source>Error: The wallet was unlocked only to anonymize coins.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Error: Narration is too long.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>A fee %1 times higher than %2 per recipient is considered an insanely high fee.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+217"/>
+        <source>Warning: Invalid Digitalmoneybits address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Warning: Unknown change address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
+        <translation type="vanished">&lt;b&gt;%1&lt;/b&gt; a %2 (%3)</translation>
+    </message>
+    <message>
+        <location line="-480"/>
         <source>Confirm send coins</source>
         <translation>Confirmar l&apos;enviament de monedes</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Esteu segur que voleu enviar %1?</translation>
+        <translation type="vanished">Esteu segur que voleu enviar %1?</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source> and </source>
-        <translation>i</translation>
+        <translation type="vanished">i</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+219"/>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>L&apos;adreça remetent no és vàlida, si us plau comprovi-la.</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
         <source>The amount to pay must be larger than 0.</source>
         <translation>La quantitat a pagar ha de ser major que 0.</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
         <source>The amount exceeds your balance.</source>
         <translation>Import superi el saldo de la seva compte.</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>El total excedeix el teu balanç quan s&apos;afegeix la comisió a la transacció %1.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+3"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>S&apos;ha trobat una adreça duplicada, tan sols es pot enviar a cada adreça un cop per ordre de enviament.</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
         <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+4"/>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to 500 DMB.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Error: La transacció ha sigut rebutjada. Això pot passar si algunes de les monedes al moneder ja s&apos;han gastat, per exemple, si vostè utilitza una còpia del wallet.dat i les monedes han estat gastades a la cópia pero no s&apos;han marcat com a gastades aqui.</translation>
     </message>
     <message>
-        <location line="+247"/>
         <source>WARNING: Invalid Digitalmoneybits address</source>
-        <translation>ADVERTÈNCIA: Direcció Digitalmoneybits invàlida</translation>
+        <translation type="vanished">ADVERTÈNCIA: Direcció Digitalmoneybits invàlida</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+249"/>
         <source>(no label)</source>
         <translation>(sense etiqueta)</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>WARNING: unknown change address</source>
-        <translation>ADVERTÈNCIA: direcció de canvi desconeguda</translation>
+        <translation type="vanished">ADVERTÈNCIA: direcció de canvi desconeguda</translation>
     </message>
 </context>
 <context>
@@ -1934,33 +3437,32 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Formulari</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>Q&amp;uantitat:</translation>
+        <translation type="vanished">Q&amp;uantitat:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+53"/>
         <source>Pay &amp;To:</source>
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
+        <location line="+15"/>
+        <location filename="../sendcoinsentry.cpp" line="+27"/>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Introdueixi una etiquera per a aquesta adreça per afegir-la a la llibreta d&apos;adreces</translation>
     </message>
     <message>
-        <location line="-78"/>
+        <location line="-28"/>
         <source>&amp;Label:</source>
         <translation>&amp;Etiqueta:</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="-23"/>
+        <source>Amount</source>
+        <translation type="unfinished">Quantitat</translation>
+    </message>
+    <message>
+        <location line="+58"/>
         <source>Choose address from address book</source>
         <translation>Trieu la direcció de la llibreta d&apos;adreces</translation>
     </message>
@@ -1970,7 +3472,17 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Alta+A</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+9"/>
+        <source>Amo&amp;unt:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>The address to send the payment to.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <source>Paste address from clipboard</source>
         <translation>Enganxar adreça del porta-retalls</translation>
     </message>
@@ -1980,14 +3492,226 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-105"/>
         <source>Remove this recipient</source>
         <translation>Eliminar aquest destinatari</translation>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Digitalmoneybits address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça Digitalmoneybits (p.ex. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation type="vanished">Introdueix una adreça Digitalmoneybits (p.ex. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsentry.cpp" line="+1"/>
+        <source>Enter Digitalmoneybits address</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SendMessagesDialog</name>
+    <message>
+        <location filename="../forms/sendmessagesdialog.ui" line="+14"/>
+        <source>Send Messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+36"/>
+        <source>Address &amp;From:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>Choose address from address book</source>
+        <translation type="unfinished">Trieu la direcció de la llibreta d&apos;adreces</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Alt+A</source>
+        <translation type="unfinished">Alta+A</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Paste address from clipboard</source>
+        <translation type="unfinished">Enganxar adreça del porta-retalls</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Alt+P</source>
+        <translation type="unfinished">Alt+P</translation>
+    </message>
+    <message>
+        <location line="+65"/>
+        <source>Send to multiple recipients at once</source>
+        <translation type="unfinished">Enviar a multiples destinataris al mateix temps</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Add &amp;Recipient</source>
+        <translation type="unfinished">Afegir &amp;Destinatari</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Remove all transaction fields</source>
+        <translation type="unfinished">Traieu tots els camps de transacció</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Clear &amp;All</source>
+        <translation type="unfinished">Esborrar &amp;Tot</translation>
+    </message>
+    <message>
+        <location line="+36"/>
+        <source>Confirm the send action</source>
+        <translation type="unfinished">Confirmi l&apos;acció d&apos;enviament</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>S&amp;end</source>
+        <translation type="unfinished">E&amp;nviar</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sendmessagesdialog.cpp" line="+37"/>
+        <source>Enter Digitalmoneybits address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+121"/>
+        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
+        <translation type="unfinished">&lt;b&gt;%1&lt;/b&gt; a %2 (%3)</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Confirm send messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Are you sure you want to send %1?</source>
+        <translation type="unfinished">Esteu segur que voleu enviar %1?</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source> and </source>
+        <translation type="unfinished">i</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <source>Send Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-19"/>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation type="unfinished">L&apos;adreça remetent no és vàlida, si us plau comprovi-la.</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>The message can&apos;t be empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation type="unfinished">S&apos;ha trobat una adreça duplicada, tan sols es pot enviar a cada adreça un cop per ordre de enviament.</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: Message creation failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: The message was rejected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SendMessagesEntry</name>
+    <message>
+        <location filename="../forms/sendmessagesentry.ui" line="+14"/>
+        <source>Form</source>
+        <translation type="unfinished">Formulari</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Send &amp;To:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>The address to send the payment to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <location line="+92"/>
+        <source>Paste address from clipboard</source>
+        <translation type="unfinished">Enganxar adreça del porta-retalls</translation>
+    </message>
+    <message>
+        <location line="-82"/>
+        <location line="+92"/>
+        <source>Alt+P</source>
+        <translation type="unfinished">Alt+P</translation>
+    </message>
+    <message>
+        <location line="-83"/>
+        <source>&amp;Label:</source>
+        <translation type="unfinished">&amp;Etiqueta:</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <location filename="../sendmessagesentry.cpp" line="+27"/>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation type="unfinished">Introdueixi una etiquera per a aquesta adreça per afegir-la a la llibreta d&apos;adreces</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Choose address from address book</source>
+        <translation type="unfinished">Trieu la direcció de la llibreta d&apos;adreces</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Alt+A</source>
+        <translation type="unfinished">Alta+A</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Remove this recipient</source>
+        <translation type="unfinished">Eliminar aquest destinatari</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>&amp;Public Key:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+34"/>
+        <source>&amp;Message:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sendmessagesentry.cpp" line="+1"/>
+        <source>Enter Digitalmoneybits address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter the public key for the address above, it is not in the blockchain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>You cannot send a blank message!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2009,9 +3733,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Pots signar missatges amb la teva adreça per provar que són teus. Sigues cautelòs al signar qualsevol cosa, ja que els atacs phising poden intentar confondre&apos;t per a que els hi signis amb la teva identitat. Tan sols signa als documents completament detallats amb els que hi estàs d&apos;acord.</translation>
     </message>
     <message>
-        <location line="+18"/>
         <source>The address to sign the message with (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>L&apos;adreça per a signar el missatge (per exemple T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation type="vanished">L&apos;adreça per a signar el missatge (per exemple T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>The address to sign the message with</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2088,10 +3816,14 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Neteja tots els camps de verificació de missatge</translation>
     </message>
     <message>
+        <source>Enter a Digitalmoneybits address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation type="vanished">Introdueix una adreça Digitalmoneybits (p.ex. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+    </message>
+    <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Digitalmoneybits address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça Digitalmoneybits (p.ex. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter Digitalmoneybits address</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,7 +3836,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Introduïu la signatura Digitalmoneybits</translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="+85"/>
         <location line="+81"/>
         <source>The entered address is invalid.</source>
         <translation>L&apos;adreça intoduïda és invàlida.</translation>
@@ -2175,7 +3907,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../trafficgraphwidget.cpp" line="+75"/>
         <source>KB/s</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2186,7 +3918,10 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Obert fins %1</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
+        <location line="+11"/>
+        <location line="+10"/>
+        <location line="+12"/>
         <source>conflicted</source>
         <translation>conflicte</translation>
     </message>
@@ -2201,19 +3936,63 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>%1/sense confirmar</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-10"/>
+        <location line="+12"/>
         <source>%1 confirmations</source>
         <translation>%1 confrimacions</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="-37"/>
+        <source>%1/offline (verified via instantx)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1/confirmed (verified via instantx)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 confirmations (verified via instantx)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>%1/offline (InstantX verification in progress - %2 of %3 signatures)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1/confirmed (InstantX verification in progress - %2 of %3 signatures )</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 confirmations (InstantX verification in progress - %2 of %3 signatures)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>%1/offline (InstantX verification failed)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1/confirmed (InstantX verification failed)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+32"/>
         <source>Status</source>
         <translation>Estat</translation>
     </message>
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, transmès a través de %n node</numerusform><numerusform>, transmès a través de %n nodes</numerusform></translation>
+        <translation>
+            <numerusform>, transmès a través de %n node</numerusform>
+            <numerusform>, transmès a través de %n nodes</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2232,41 +4011,50 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+5"/>
-        <location line="+17"/>
+        <location line="+13"/>
+        <location line="+73"/>
         <source>From</source>
         <translation>Des de</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
+        <location line="-72"/>
+        <location line="+20"/>
+        <location line="+69"/>
         <source>To</source>
         <translation>A</translation>
     </message>
     <message>
-        <location line="-77"/>
-        <location line="+2"/>
+        <location line="-87"/>
         <source>own address</source>
         <translation>Adreça pròpia</translation>
     </message>
     <message>
-        <location line="-2"/>
+        <location line="+0"/>
+        <location line="+70"/>
+        <source>watch-only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-68"/>
         <source>label</source>
         <translation>etiqueta</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+34"/>
         <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
+        <location line="+53"/>
+        <location line="+26"/>
+        <location line="+33"/>
         <source>Credit</source>
         <translation>Crèdit</translation>
     </message>
     <message numerus="yes">
-        <location line="-102"/>
+        <location line="-122"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>madura en %n bloc més</numerusform><numerusform>madura en %n blocs més</numerusform></translation>
+        <translation>
+            <numerusform>madura en %n bloc més</numerusform>
+            <numerusform>madura en %n blocs més</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2274,15 +4062,24 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>no acceptat</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
+        <location line="+59"/>
+        <location line="+25"/>
+        <location line="+33"/>
         <source>Debit</source>
         <translation>Dèbit</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <location line="-48"/>
+        <source>Total debit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Total credit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Transaction fee</source>
         <translation>Comissió de transacció</translation>
     </message>
@@ -2307,12 +4104,16 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>ID de transacció</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 510 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Les monedes generades han de madurar 510 blocs abans per a poder estar disponibles. En generar aquest bloc, que va ser transmès a la xarxa per ser afegit a la cadena de bloc. Si no aconsegueix entrar a la cadena, el seu estat canviarà a &quot;no acceptat&quot; i no es podrà gastar. Això pot succeir de tant en tant si un altre node genera un bloc a pocs segons del seu.</translation>
+        <location line="+4"/>
+        <source>Generated coins must mature 80 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="unfinished">Les monedes generades han de madurar 510 blocs abans per a poder estar disponibles. En generar aquest bloc, que va ser transmès a la xarxa per ser afegit a la cadena de bloc. Si no aconsegueix entrar a la cadena, el seu estat canviarà a &quot;no acceptat&quot; i no es podrà gastar. Això pot succeir de tant en tant si un altre node genera un bloc a pocs segons del seu. {80 ?}</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Generated coins must mature 510 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="vanished">Les monedes generades han de madurar 510 blocs abans per a poder estar disponibles. En generar aquest bloc, que va ser transmès a la xarxa per ser afegit a la cadena de bloc. Si no aconsegueix entrar a la cadena, el seu estat canviarà a &quot;no acceptat&quot; i no es podrà gastar. Això pot succeir de tant en tant si un altre node genera un bloc a pocs segons del seu.</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Debug information</source>
         <translation>Informació de depuració</translation>
     </message>
@@ -2333,26 +4134,31 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location line="+1"/>
         <source>true</source>
         <translation>cert</translation>
     </message>
     <message>
-        <location line="+0"/>
+        <location line="-1"/>
+        <location line="+1"/>
         <source>false</source>
         <translation>fals</translation>
     </message>
     <message>
-        <location line="-209"/>
+        <location line="-224"/>
         <source>, has not been successfully broadcast yet</source>
         <translation>, encara no ha estat emès correctement</translation>
     </message>
     <message numerus="yes">
-        <location line="-36"/>
+        <location line="-75"/>
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>Obert per a %n bloc més</numerusform>
+            <numerusform>Obert per a %n blocs més</numerusform>
+        </translation>
     </message>
     <message>
-        <location line="+71"/>
+        <location line="+106"/>
         <source>unknown</source>
         <translation>desconegut</translation>
     </message>
@@ -2373,7 +4179,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+231"/>
+        <location filename="../transactiontablemodel.cpp" line="+223"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
@@ -2388,12 +4194,11 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Direcció</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Amount</source>
-        <translation>Quantitat</translation>
+        <translation type="vanished">Quantitat</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+62"/>
         <source>Open until %1</source>
         <translation>Obert fins %1</translation>
     </message>
@@ -2405,7 +4210,10 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message numerus="yes">
         <location line="-15"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Obert per a %n bloc més</numerusform><numerusform>Obert per a %n blocs més</numerusform></translation>
+        <translation>
+            <numerusform>Obert per a %n bloc més</numerusform>
+            <numerusform>Obert per a %n blocs més</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2443,7 +4251,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Generat però no acceptat</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+39"/>
         <source>Received with</source>
         <translation>Rebut desde</translation>
     </message>
@@ -2451,6 +4259,11 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+2"/>
         <source>Received from</source>
         <translation>Rebut de</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Received via Darksend</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2468,12 +4281,42 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Minat</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+3"/>
+        <source>Darksend Denominate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Darksend Collateral Payment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Darksend Make Collateral Inputs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Darksend Create Denominations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Darksent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>watch-only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>(n/a)</source>
         <translation>(n/a)</translation>
     </message>
     <message>
-        <location line="+194"/>
+        <location line="+213"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation>Estat de la transacció. Desplaça&apos;t per aquí sobre per mostrar el nombre de confirmacions.</translation>
     </message>
@@ -2489,6 +4332,11 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Destination address of transaction.</source>
         <translation>Adreça del destinatari de la transacció.</translation>
     </message>
@@ -2501,7 +4349,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+54"/>
+        <location filename="../transactionview.cpp" line="+67"/>
         <location line="+17"/>
         <source>All</source>
         <translation>Tot</translation>
@@ -2538,6 +4386,11 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+12"/>
+        <source>Most Common</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Received with</source>
         <translation>Rebut desde</translation>
     </message>
@@ -2548,6 +4401,31 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
+        <source>Darksent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Darksend Make Collateral Inputs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Darksend Create Denominations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Darksend Denominate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Darksend Collateral Payment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>To yourself</source>
         <translation>A tu mateix</translation>
     </message>
@@ -2567,12 +4445,12 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Introdueix una adreça o una etiqueta per cercar</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>Min amount</source>
         <translation>Quantitat mínima</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+36"/>
         <source>Copy address</source>
         <translation>Copiar adreça </translation>
     </message>
@@ -2602,7 +4480,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Mostra detalls de la transacció</translation>
     </message>
     <message>
-        <location line="+138"/>
+        <location line="+198"/>
         <source>Export Transaction Data</source>
         <translation>Exportació de dades de transaccions</translation>
     </message>
@@ -2615,6 +4493,11 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+8"/>
         <source>Confirmed</source>
         <translation>Confirmat</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Watch-only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2637,27 +4520,44 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Direcció</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>Quantitat</translation>
+        <location line="+5"/>
+        <source>Exporting Failed</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+0"/>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Exporting Successful</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="vanished">Quantitat</translation>
+    </message>
+    <message>
+        <location line="-7"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Error exporting</source>
-        <translation>Error a l&apos;exportar</translation>
+        <translation type="vanished">Error a l&apos;exportar</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>No s&apos;ha pogut escriure al fitxer %1.</translation>
+        <translation type="vanished">No s&apos;ha pogut escriure al fitxer %1.</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+124"/>
         <source>Range:</source>
         <translation>Rang:</translation>
     </message>
@@ -2670,7 +4570,12 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+208"/>
+        <location filename="../walletmodel.cpp" line="+305"/>
+        <source>Send Coins</source>
+        <translation type="unfinished">Enviar monedes</translation>
+    </message>
+    <message>
+        <location line="+206"/>
         <source>Sending...</source>
         <translation>Enviant...</translation>
     </message>
@@ -2678,7 +4583,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+173"/>
+        <location filename="../bitcoinstrings.cpp" line="+172"/>
         <source>Digitalmoneybits version</source>
         <translation>versió Digitalmoneybits</translation>
     </message>
@@ -2703,7 +4608,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <translation>Obtenir ajuda per a un ordre.</translation>
     </message>
     <message>
-        <location line="-147"/>
+        <location line="-146"/>
         <source>Options:</source>
         <translation>Opcions:</translation>
     </message>
@@ -2740,7 +4645,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
 </source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+27"/>
@@ -2780,12 +4685,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
     <message>
         <location line="+1"/>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Always query for peer addresses via DNS lookup (default: 0)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2803,12 +4708,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
         <translation>Ha sorgit un error al configurar el port RPC %u escoltant a IPv4: %s</translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+64"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15715 or testnet: 25715)</source>
         <translation>Escoltar connexions JSON-RPC al port &lt;port&gt; (per defecte: 15715 o testnet: 25715)</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Acceptar línia d&apos;ordres i ordres JSON-RPC </translation>
     </message>
@@ -2833,7 +4738,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
         <translation>Ha sorgit un error al configurar el port RPC %u escoltant a IPv6, retrocedint a IPv4: %s</translation>
     </message>
     <message>
-        <location line="+96"/>
+        <location line="+95"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Establir la grandària màxima de les transaccions alta-prioritat/baixa-comisió en bytes (per defecte: 27000)</translation>
     </message>
@@ -2843,12 +4748,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
         <translation>Advertència: el -paytxfee és molt elevat! Aquesta és la comissió de transacció que pagaràs quan enviis una transacció.</translation>
     </message>
     <message>
-        <location line="-103"/>
+        <location line="-102"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Digitalmoneybits will not work properly.</source>
         <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni Digitalmoneybits no funcionarà correctament.</translation>
     </message>
     <message>
-        <location line="+132"/>
+        <location line="+131"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Advertència: Error llegint l&apos;arxiu wallet.dat!! Totes les claus es llegeixen correctament, però hi ha dades de transaccions o entrades del llibre d&apos;adreces absents o bé son incorrectes.</translation>
     </message>
@@ -2868,7 +4773,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
         <translation>Opcions de la creació de blocs:</translation>
     </message>
     <message>
-        <location line="-69"/>
+        <location line="-68"/>
         <source>Connect only to the specified node(s)</source>
         <translation>Connectar només al(s) node(s) especificats</translation>
     </message>
@@ -2878,17 +4783,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
         <translation>Descobrir la pròpia adreça IP (per defecte: 1 quan escoltant i no -externalip)</translation>
     </message>
     <message>
-        <location line="+101"/>
+        <location line="+100"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Error al escoltar a qualsevol port. Utilitza -listen=0 si vols això.</translation>
     </message>
     <message>
-        <location line="-91"/>
+        <location line="-90"/>
         <source>Sync checkpoints policy (default: strict)</source>
         <translation>Política dels punts de control de sincronització (per defecte: estricta)</translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+88"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
         <translation>Adreça -tor invalida: &apos;%s&apos;</translation>
     </message>
@@ -2898,7 +4803,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
         <translation>Quantitat invalida per a -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
-        <location line="-88"/>
+        <location line="-87"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation>Mida màxima del buffer de recepció per a cada connexió, &lt;n&gt;*1000 bytes (default: 5000)</translation>
     </message>
@@ -2918,12 +4823,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
         <translation>Anteposar marca de temps a la sortida de depuració</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+40"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>Opcions SSL: (veure la Wiki de Bitcoin per a instruccions de configuració SSL)</translation>
     </message>
     <message>
-        <location line="-81"/>
+        <location line="-80"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>Seleccioneu la versió de proxy socks per utilitzar (4-5, per defecte: 5)</translation>
     </message>
@@ -2933,12 +4838,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
         <translation>Enviar informació de traça/depuració a la consola en comptes del arxiu debug.log</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>Enviar informació de traça/depuració al depurador</translation>
+        <translation type="vanished">Enviar informació de traça/depuració al depurador</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+34"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
         <translation>Establir una mida máxima de bloc en bytes (per defecte: 250000)</translation>
     </message>
@@ -2948,7 +4852,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
         <translation>Establir una mida mínima de bloc en bytes (per defecte: 0)</translation>
     </message>
     <message>
-        <location line="-35"/>
+        <location line="-34"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Reduir l&apos;arxiu debug.log al iniciar el client (per defecte 1 quan no -debug)</translation>
     </message>
@@ -2958,14 +4862,14 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
         <translation>Especificar el temps limit per a un intent de connexió en milisegons (per defecte: 5000)</translation>
     </message>
     <message>
-        <location line="+116"/>
+        <location line="+115"/>
         <source>Unable to sign checkpoint, wrong checkpointkey?
 </source>
         <translation>No es pot signar el punt de control, la clau del punt de control esta malament?
 </translation>
     </message>
     <message>
-        <location line="-86"/>
+        <location line="-85"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Utilitza UPnP per a mapejar els ports d&apos;escolta (per defecte: 0)</translation>
     </message>
@@ -2980,7 +4884,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
         <translation>Utilitza proxy per arribar als serveis ocults de Tor (per defecte: la mateixa que -proxy)</translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+46"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Nom d&apos;usuari per a connexions JSON-RPC</translation>
     </message>
@@ -2992,32 +4896,32 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
     <message>
         <location line="+44"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Avís</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3040,7 +4944,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
         <translation>Contrasenya per a connexions JSON-RPC</translation>
     </message>
     <message>
-        <location line="-32"/>
+        <location line="-31"/>
         <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
         <translation>Sincronitzar el temps amb altres nodes. Desactivar si el temps al seu sistema és precís, per exemple, si fa ús de sincronització amb NTP (per defecte: 1)</translation>
     </message>
@@ -3052,25 +4956,25 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
     <message>
         <location line="+6"/>
         <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&lt;category&gt; can be:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Permetre connexions JSON-RPC d&apos;adreces IP específiques</translation>
     </message>
@@ -3082,12 +4986,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; a
     <message>
         <location line="+1"/>
         <source>Wait for RPC server to start</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3153,7 +5057,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     <message>
         <location line="+10"/>
         <source>Initialization sanity check failed. Digitalmoneybits is shutting down.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3163,12 +5067,12 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     <message>
         <location line="+17"/>
         <source>Error: Disk space is low!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3176,12 +5080,12 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
         <translation>ADVERTÈNCIA: Punt de control invàlid! Les transaccions mostrades podríen no ser correctes! Podria ser necessari actualitzar o notificar-ho als desenvolupadors.</translation>
     </message>
     <message>
-        <location line="-174"/>
+        <location line="-173"/>
         <source>This help message</source>
         <translation>Aquest misatge d&apos;ajuda</translation>
     </message>
     <message>
-        <location line="+104"/>
+        <location line="+103"/>
         <source>Wallet %s resides outside data directory %s.</source>
         <translation>El moneder %s resideix fora del directori de dades %s.</translation>
     </message>
@@ -3191,7 +5095,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
         <translation>Impossible d&apos;unir %s a aquest ordinador (s&apos;ha retornat l&apos;error %d, %s)</translation>
     </message>
     <message>
-        <location line="-133"/>
+        <location line="-132"/>
         <source>Connect through socks proxy</source>
         <translation>Conectar a través d&apos;un proxy SOCKS</translation>
     </message>
@@ -3201,7 +5105,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
         <translation>Permetre consultes DNS per a -addnode, -seednode i -connect</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+125"/>
         <source>Loading addresses...</source>
         <translation>Carregant adreces...</translation>
     </message>
@@ -3281,44 +5185,44 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
         <translation>Carregant índex de blocs...</translation>
     </message>
     <message>
-        <location line="-110"/>
+        <location line="-109"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Afegir un node per a connectar&apos;s-hi i intentar mantenir la connexió oberta</translation>
     </message>
     <message>
-        <location line="+125"/>
+        <location line="+124"/>
         <source>Unable to bind to %s on this computer. Digitalmoneybits is probably already running.</source>
         <translation>No es pot enllaçar a %s en aquest equip. Digitalmoneybits probablement ja estigui en funcionament.</translation>
     </message>
     <message>
-        <location line="-101"/>
+        <location line="-100"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation>Comisió per KB per a afegir a les transaccions que enviï</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>Minimize weight consumption (experimental) (default: 0)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+8"/>
         <source>How many blocks to check at startup (default: 500, 0 = all)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3328,12 +5232,12 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Digitalmoneybits is probably already running.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3361,12 +5265,12 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
         <translation>Càrrega acabada</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-160"/>
         <source>To use the %s option</source>
         <translation>Utilitza la opció %s</translation>
     </message>
     <message>
-        <location line="+188"/>
+        <location line="+187"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>

@@ -1,34 +1,51 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_CN">
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
+        <location filename="../forms/aboutdialog.ui" line="+20"/>
         <source>About Digitalmoneybits</source>
         <translation>关于黑币</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+26"/>
         <source>&lt;b&gt;Digitalmoneybits&lt;/b&gt; version</source>
         <translation>&lt;b&gt;黑币客户端&lt;/b&gt; 版本</translation>
     </message>
     <message>
         <location line="+41"/>
+        <source>Copyright © 2009-2014 The Bitcoin Developers
+Copyright © 2012-2014 The NovaCoin Developers
+Copyright © 2017-2019 The Digitalmoneybits Developers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>&lt;a href=&quot;https://www.digitalmoneybits.org/&quot;&gt;https://www.digitalmoneybits.org/&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;/span&gt;&lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;. This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;/span&gt;&lt;a href=&quot;https://www.openssl.org/&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;https://www.openssl.org/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;) and cryptographic software written by Eric Young (&lt;/span&gt;&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;eay@cryptsoft.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;) and UPnP software written by Thomas Bernard.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2015-2017 The Digitalmoneybits developers</source>
-        <translation>版权所有 © 2009-2014 比特币Bitcoin开发组
+        <translation type="vanished">版权所有 © 2009-2014 比特币Bitcoin开发组
 版权所有 © 2012-2014 新星币Novacoin开发组
 版权所有 © 2015-2017 黑币Digitalmoneybits开发组</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
-        <translation>
+        <translation type="vanished">
 这是一套实验性软件。
 
 本软件是依据MIT/X11软件授权条款散布。详情见附带的COPYING或&lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
@@ -37,19 +54,76 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
+    <name>AddEditAdrenalineNode</name>
+    <message>
+        <location filename="../forms/addeditadrenalinenode.ui" line="+14"/>
+        <source>Add/Edit Masternode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enter an Alias for your Masternode and its address (clearnet IP and port). The address should be in the format xxx.xxx.xxx.xxx:32097. You must send exactly 100000 DMB to the masternode wallet address.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Alias*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Address*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>PrivKey*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>TxHash*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Output Index*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Reward Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Reward %</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">确定(&amp;O)</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>&amp;Cancel</source>
+        <translation type="unfinished">取消(&amp;C)</translation>
+    </message>
+</context>
+<context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
+        <location filename="../forms/addressbookpage.ui" line="+20"/>
         <source>Address Book</source>
         <translation>地址簿</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Double-click to edit address or label</source>
-        <translation>双击编辑地址或标签</translation>
+        <translation type="vanished">双击编辑地址或标签</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+46"/>
         <source>Create a new address</source>
         <translation>创建新地址</translation>
     </message>
@@ -64,12 +138,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>新建地址(&amp;N)</translation>
     </message>
     <message>
-        <location line="-43"/>
         <source>These are your Digitalmoneybits addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这是您用来接收支付的黑币地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
+        <translation type="vanished">这是您用来接收支付的黑币地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="+10"/>
         <source>&amp;Copy Address</source>
         <translation>复制地址(&amp;C)</translation>
     </message>
@@ -99,7 +172,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>验证信息以保证其经过指定黑币地址的签名</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-77"/>
+        <source>These are your addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Double-click to edit label</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+64"/>
         <source>&amp;Verify Message</source>
         <translation>验证消息(&amp;V)</translation>
     </message>
@@ -109,7 +192,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>删除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+65"/>
+        <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
         <translation>复制标签(&amp;L)</translation>
     </message>
@@ -119,7 +202,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>编辑(&amp;E)</translation>
     </message>
     <message>
-        <location line="+250"/>
+        <location line="+252"/>
         <source>Export Address Book Data</source>
         <translation>导出地址簿数据</translation>
     </message>
@@ -142,7 +225,7 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+145"/>
+        <location filename="../addresstablemodel.cpp" line="+157"/>
         <source>Label</source>
         <translation>标签</translation>
     </message>
@@ -155,6 +238,19 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+36"/>
         <source>(no label)</source>
         <translation>(没有标签)</translation>
+    </message>
+</context>
+<context>
+    <name>AdrenalineNodeConfigDialog</name>
+    <message>
+        <location filename="../forms/adrenalinenodeconfigdialog.ui" line="+14"/>
+        <source>Masternode Configuration Template</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This pane shows an example Digitalmoneybits.conf template with the necessary masternode settings.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -309,14 +405,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
+    <name>BanTableModel</name>
+    <message>
+        <location filename="../bantablemodel.cpp" line="+89"/>
+        <source>IP/Netmask</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Banned Until</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+297"/>
+        <location filename="../bitcoingui.cpp" line="+375"/>
         <source>Sign &amp;message...</source>
         <translation>消息签名(&amp;M)...</translation>
     </message>
     <message>
-        <location line="-64"/>
+        <location line="-96"/>
         <source>Show general overview of wallet</source>
         <translation>显示钱包概况</translation>
     </message>
@@ -331,12 +440,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>查看交易历史</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>&amp;Address Book</source>
-        <translation>地址簿(&amp;A)</translation>
+        <translation type="vanished">地址簿(&amp;A)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <source>Edit the list of stored addresses and labels</source>
         <translation>管理已储存的地址和标签</translation>
     </message>
@@ -346,7 +454,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>显示用于接收支付的地址列表</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+66"/>
         <source>E&amp;xit</source>
         <translation>退出(&amp;X)</translation>
     </message>
@@ -396,12 +504,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>导出(&amp;E)</translation>
     </message>
     <message>
-        <location line="-55"/>
+        <location line="-87"/>
         <source>Send coins to a Digitalmoneybits address</source>
         <translation>向指定的地址发送黑币</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+71"/>
         <source>Modify configuration options for Digitalmoneybits</source>
         <translation>更改设置选项</translation>
     </message>
@@ -441,18 +549,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>验证消息(&amp;V)...</translation>
     </message>
     <message>
-        <location line="-214"/>
-        <location line="+551"/>
+        <location line="-277"/>
+        <location line="+658"/>
         <source>Digitalmoneybits</source>
         <translation>黑币</translation>
     </message>
     <message>
-        <location line="-551"/>
+        <location line="-658"/>
         <source>Wallet</source>
         <translation>钱包</translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+256"/>
         <source>&amp;About Digitalmoneybits</source>
         <translation>关于黑币(&amp;A)</translation>
     </message>
@@ -477,7 +585,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>锁定钱包</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+32"/>
         <source>&amp;File</source>
         <translation>文件(&amp;F)</translation>
     </message>
@@ -487,34 +595,36 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>设置(&amp;S)</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>&amp;Help</source>
         <translation>帮助(&amp;H)</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+19"/>
         <source>Tabs toolbar</source>
         <translation>分页工具栏</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+67"/>
         <location line="+9"/>
         <source>[testnet]</source>
         <translation>[测试网络]</translation>
     </message>
     <message>
         <location line="+0"/>
-        <location line="+58"/>
+        <location line="+82"/>
         <source>Digitalmoneybits client</source>
         <translation>黑币客户端</translation>
     </message>
     <message numerus="yes">
-        <location line="+70"/>
+        <location line="+71"/>
         <source>%n active connection(s) to Digitalmoneybits network</source>
-        <translation><numerusform>与黑币网络建立了 %n 个连接</numerusform></translation>
+        <translation>
+            <numerusform>与黑币网络建立了 %n 个连接</numerusform>
+        </translation>
     </message>
     <message>
-        <location line="+488"/>
+        <location line="+585"/>
         <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
         <translation>权益增值中 &lt;br&gt;您的权重为 %1 &lt;br&gt;网络总权重为 %2&lt;br&gt;预计将在 %3 之后获得收益</translation>
     </message>
@@ -539,7 +649,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>未进行权益增值，因为钱包中没有成熟的黑币</translation>
     </message>
     <message>
-        <location line="-808"/>
+        <location line="-990"/>
         <source>&amp;Dashboard</source>
         <translation>操控板(&amp;D)</translation>
     </message>
@@ -554,12 +664,62 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>发送黑币(&amp;S)</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+12"/>
+        <source>&amp;Addresses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>&amp;Masternodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show Master Nodes status and configure your nodes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>&amp;Messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>View and Send Encrypted messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>&amp;Block Explorer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Explore the BlockChain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>&amp;Bittrex</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Start Trading</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Show Auto&amp;Backups</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+40"/>
         <source>&amp;Unlock Wallet...</source>
         <translation>解锁钱包(&amp;U)</translation>
     </message>
     <message>
-        <location line="+273"/>
+        <location line="+317"/>
         <source>Up to date</source>
         <translation>已是最新</translation>
     </message>
@@ -569,12 +729,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>更新中...</translation>
     </message>
     <message>
-        <location line="+113"/>
+        <location line="+128"/>
         <source>Confirm transaction fee</source>
         <translation>手续费确认</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+26"/>
         <source>Sent transaction</source>
         <translation>发送交易</translation>
     </message>
@@ -597,7 +757,21 @@ Address: %4
 </translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+27"/>
+        <source>Incoming Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Date: %1
+From Address: %2
+To Address: %3
+Message: %4
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+148"/>
         <location line="+15"/>
         <source>URI handling</source>
         <translation>URI处理</translation>
@@ -609,7 +783,12 @@ Address: %4
         <translation>无法解析URI：无效的黑币地址或错误的URI参数。</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+8"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked for staking only&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>Wallet is &lt;b&gt;not encrypted&lt;/b&gt;</source>
         <translation>钱包&lt;b&gt;还未加密&lt;b&gt;</translation>
     </message>
@@ -624,7 +803,7 @@ Address: %4
         <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;锁定&lt;/b&gt;状态</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+26"/>
         <source>Backup Wallet</source>
         <translation>备份钱包</translation>
     </message>
@@ -644,37 +823,47 @@ Address: %4
         <translation>试图将钱包地址保存到新位置时出现错误</translation>
     </message>
     <message numerus="yes">
-        <location line="+91"/>
+        <location line="+92"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n秒</numerusform></translation>
+        <translation>
+            <numerusform>%n秒</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n 分钟</numerusform></translation>
+        <translation>
+            <numerusform>%n 分钟</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
-        <location line="-429"/>
-        <location line="+433"/>
+        <location line="-535"/>
+        <location line="+539"/>
         <source>%n hour(s)</source>
-        <translation><numerusform>%n 小时</numerusform></translation>
+        <translation>
+            <numerusform>%n 小时</numerusform>
+        </translation>
     </message>
     <message>
-        <location line="-456"/>
+        <location line="-562"/>
         <source>Processed %1 blocks of transaction history.</source>
         <translation>已下载 %1 个区块的交易记录</translation>
     </message>
     <message numerus="yes">
         <location line="+27"/>
-        <location line="+433"/>
+        <location line="+539"/>
         <source>%n day(s)</source>
-        <translation><numerusform>%n 天</numerusform></translation>
+        <translation>
+            <numerusform>%n 天</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
-        <location line="-429"/>
+        <location line="-535"/>
         <location line="+6"/>
         <source>%n week(s)</source>
-        <translation><numerusform>%n 星期</numerusform></translation>
+        <translation>
+            <numerusform>%n 星期</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+0"/>
@@ -684,15 +873,17 @@ Address: %4
     <message numerus="yes">
         <location line="+0"/>
         <source>%n year(s)</source>
-        <translation><numerusform>%n 年</numerusform></translation>
+        <translation>
+            <numerusform>%n 年</numerusform>
+        </translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>%1 behind</source>
         <translation>落后%1</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
         <translation>最近生成的区块接收于%1</translation>
     </message>
@@ -717,25 +908,108 @@ Address: %4
         <translation>通知</translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+84"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
         <translation>该笔交易数据量太大，需支付%1手续费给执行该笔交易的网络结点。您愿意支付吗？</translation>
     </message>
     <message>
-        <location line="+324"/>
+        <location line="+415"/>
         <source>Not staking</source>
         <translation>未进行权益增值</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+104"/>
+        <location filename="../bitcoin.cpp" line="+105"/>
         <source>A fatal error occurred. Digitalmoneybits can no longer continue safely and will quit.</source>
         <translation>发生严重错误，黑币客户端即将关闭。</translation>
     </message>
 </context>
 <context>
+    <name>BlockBrowser</name>
+    <message>
+        <location filename="../forms/blockbrowser.ui" line="+35"/>
+        <source>Form</source>
+        <translation type="unfinished">表单</translation>
+    </message>
+    <message>
+        <location line="+32"/>
+        <source>Block Explorer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+49"/>
+        <source>Jump to Block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Block Hash:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Block Timestamp:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Block nBits:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>Block Merkle:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Block Height:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+52"/>
+        <source>Block Difficulty:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Block nNonce:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Decode Transaction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>Transaction ID:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>Value out:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Inputs:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Fees:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>Outputs:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+110"/>
+        <location filename="../clientmodel.cpp" line="+149"/>
         <source>Network Alert</source>
         <translation>网络警报</translation>
     </message>
@@ -778,12 +1052,32 @@ Address: %4
         <translation>低输出</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="+552"/>
+        <location line="+131"/>
+        <source>toggle lock state</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Tree &amp;mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>&amp;List mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>(1 locked)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="+659"/>
         <source>no</source>
         <translation>否</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="+51"/>
+        <location filename="../forms/coincontroldialog.ui" line="-107"/>
         <source>After Fee:</source>
         <translation>加上交易费用后:</translation>
     </message>
@@ -793,22 +1087,20 @@ Address: %4
         <translation>变更 : </translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+38"/>
         <source>(un)select all</source>
         <translation>(不)全选</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Tree mode</source>
-        <translation>树状模式</translation>
+        <translation type="vanished">树状模式</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>List mode</source>
-        <translation>列表模式</translation>
+        <translation type="vanished">列表模式</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+77"/>
         <source>Amount</source>
         <translation>金额</translation>
     </message>
@@ -821,6 +1113,11 @@ Address: %4
         <location line="+5"/>
         <source>Address</source>
         <translation>地址</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Darksend Rounds</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -843,7 +1140,7 @@ Address: %4
         <translation>优先级</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="-515"/>
+        <location filename="../coincontroldialog.cpp" line="-617"/>
         <source>Copy address</source>
         <translation>复制地址</translation>
     </message>
@@ -864,7 +1161,17 @@ Address: %4
         <translation>复制交易编号</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+1"/>
+        <source>Lock unspent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Unlock unspent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+22"/>
         <source>Copy quantity</source>
         <translation>复制金额</translation>
     </message>
@@ -899,7 +1206,17 @@ Address: %4
         <translation>复制零钱</translation>
     </message>
     <message>
-        <location line="+317"/>
+        <location line="+154"/>
+        <source>Please switch to &quot;List mode&quot; to use this function.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+205"/>
+        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
         <source>highest</source>
         <translation>最高</translation>
     </message>
@@ -934,7 +1251,12 @@ Address: %4
         <translation>最低</translation>
     </message>
     <message>
-        <location line="+155"/>
+        <location line="+11"/>
+        <source>(%1 locked)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+175"/>
         <source>DUST</source>
         <translation>DUST</translation>
     </message>
@@ -985,13 +1307,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 此时需收取 %2 的手续费。</translation>
     </message>
     <message>
-        <location line="+36"/>
-        <location line="+66"/>
+        <location line="+42"/>
+        <location line="+61"/>
         <source>(no label)</source>
         <translation>(没有标签)</translation>
     </message>
     <message>
-        <location line="-9"/>
+        <location line="-7"/>
         <source>change from %1 (%2)</source>
         <translation>来自%1的零钱 (%2)</translation>
     </message>
@@ -999,6 +1321,96 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+1"/>
         <source>(change)</source>
         <translation>(零钱)</translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DarksendConfig</name>
+    <message>
+        <location filename="../forms/darksendconfig.ui" line="+14"/>
+        <source>Configure Darksend</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Basic Privacy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>High Privacy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Maximum Privacy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Please select a privacy level.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Use 2 separate masternodes to mix funds up to 1000 DMB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Use 8 separate masternodes to mix funds up to 1000 DMB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Use 16 separate masternodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>This option is the quickest and will cost about ~0.025 DMB to anonymize 1000 DMB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>This option is moderately fast and will cost about 0.05 DMB to anonymize 1000 DMB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>0.1 DMB per 1000 DMB you anonymize.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../darksendconfig.cpp" line="+43"/>
+        <location line="+15"/>
+        <location line="+15"/>
+        <source>Darksend Configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-29"/>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Digitalmoneybits&apos;s configuration screen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Digitalmoneybits&apos;s configuration screen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Bitcoin&apos;s configuration screen.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1009,47 +1421,62 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>编辑地址</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+32"/>
         <source>&amp;Label</source>
         <translation>标签(&amp;L)</translation>
     </message>
     <message>
         <location line="+10"/>
+        <source>Paste address from clipboard</source>
+        <translation type="unfinished">从剪贴板粘贴地址</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Alt+P</source>
+        <translation type="unfinished">Alt+P</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>&amp;Stealth Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-36"/>
         <source>The label associated with this address book entry</source>
         <translation>地址簿内该项目对应的标签</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-10"/>
         <source>&amp;Address</source>
         <translation>地址(&amp;A)</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-7"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
         <translation>地址簿内该项目对应的地址。只有“收款人地址”分类下的地址可以修改。</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
+        <location filename="../editaddressdialog.cpp" line="+22"/>
         <source>New receiving address</source>
         <translation>新建接收地址</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+10"/>
         <source>New sending address</source>
         <translation>新建发送地址</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Edit receiving address</source>
         <translation>编辑接收地址</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+9"/>
         <source>Edit sending address</source>
         <translation>编辑发送地址</translation>
     </message>
     <message>
-        <location line="+76"/>
+        <location line="+86"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>输入的地址“%1”已经存在于地址簿中。</translation>
     </message>
@@ -1072,7 +1499,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>GUIUtil::HelpMessageBox</name>
     <message>
-        <location filename="../guiutil.cpp" line="+426"/>
+        <location filename="../guiutil.cpp" line="+690"/>
         <location line="+12"/>
         <source>Digitalmoneybits-Qt</source>
         <translation>黑币客户端Digitalmoneybits-Qt</translation>
@@ -1114,6 +1541,455 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
 </context>
 <context>
+    <name>MRichTextEdit</name>
+    <message>
+        <location filename="../plugins/mrichtexteditor/mrichtextedit.ui" line="+56"/>
+        <source>Paragraph formatting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Undo (CTRL+Z)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Undo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <location line="+3"/>
+        <source>Redo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Cut (CTRL+X)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Cut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Copy (CTRL+C)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Paste (CTRL+V)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Paste</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Link (CTRL+L)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+34"/>
+        <source>Bold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Italic (CTRL+I)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Italic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Underline (CTRL+U)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Underline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Strike Out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Bullet list (CTRL+-)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Bullet list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Ordered list (CTRL+=)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Ordered list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Decrease indentation (CTRL+,)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Decrease indentation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Increase indentation (CTRL+.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Increase indentation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Text background color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Font size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/mrichtexteditor/mrichtextedit.cpp" line="+59"/>
+        <source>Standard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Heading 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Heading 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Heading 3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Heading 4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Monospace</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+143"/>
+        <source>Create a link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Link URL:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MasternodeManager</name>
+    <message>
+        <location filename="../forms/masternodemanager.ui" line="+14"/>
+        <source>Form</source>
+        <translation type="unfinished">表单</translation>
+    </message>
+    <message>
+        <location line="+27"/>
+        <source>Digitalmoneybits Network</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>Address</source>
+        <translation type="unfinished">地址</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Protocol</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Activity time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Last Seen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Masternode pubkey</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Masternodes count:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>0</source>
+        <translation type="unfinished">0</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>My Masternodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>&amp;Create...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>Alias</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>IP Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Status</source>
+        <translation type="unfinished">状态</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>&amp;Update</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+34"/>
+        <source>S&amp;tart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>St&amp;art All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../masternodemanager.cpp" line="+88"/>
+        <source>Copy Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy Pubkey</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MessageModel</name>
+    <message>
+        <location filename="../messagemodel.cpp" line="+310"/>
+        <source>Type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Sent Date Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Received Date Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Label</source>
+        <translation type="unfinished">标签</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>To Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>From Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Message</source>
+        <translation type="unfinished">消息</translation>
+    </message>
+    <message>
+        <location line="+82"/>
+        <source>Send Secure Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send failed: %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+67"/>
+        <source>(no label)</source>
+        <translation type="unfinished">(没有标签)</translation>
+    </message>
+</context>
+<context>
+    <name>MessagePage</name>
+    <message>
+        <location filename="../forms/messagepage.ui" line="+14"/>
+        <source>Address Book</source>
+        <translation type="unfinished">地址簿</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>These are your sent and received encrypted messages. Click on an item to read it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Click on a message to view it</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+50"/>
+        <source>&amp;Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Contact:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+54"/>
+        <source>&amp;Conversation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Sign a message to prove you own a Digitalmoneybits address</source>
+        <translation type="unfinished">对信息进行签名以证明您对该黑币地址的所有权</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Send</source>
+        <translation type="unfinished">发送黑币(&amp;S)</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <location line="+14"/>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation type="unfinished">复制当前选中的地址到系统剪贴板</translation>
+    </message>
+    <message>
+        <location line="-11"/>
+        <source>&amp;Copy From Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Copy To &amp;Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Delete the currently selected address from the list</source>
+        <translation type="unfinished">从列表中删除选中的地址</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Delete</source>
+        <translation type="unfinished">删除(&amp;D)</translation>
+    </message>
+    <message>
+        <location filename="../messagepage.cpp" line="+182"/>
+        <source>Send Secure Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send failed: %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+213"/>
+        <source>Export Messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Comma separated file (*.csv)</source>
+        <translation type="unfinished">逗号分隔文件 (*.csv)</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>Error exporting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Could not write to file %1.</source>
+        <translation type="unfinished">无法写入文件 %1 。</translation>
+    </message>
+</context>
+<context>
     <name>OptionsDialog</name>
     <message>
         <location filename="../forms/optionsdialog.ui" line="+14"/>
@@ -1131,22 +2007,20 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>支付可选的交易手续费以加速交易(每kB)。大多数交易的数据量为1kB。推荐额0.01。</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>支付交易费用(&amp;F)</translation>
+        <translation type="vanished">支付交易费用(&amp;F)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+46"/>
         <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
         <translation>保留金额不参与权益累积，可以随时使用。</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Reserve</source>
-        <translation>保留</translation>
+        <translation type="vanished">保留</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+46"/>
         <source>Automatically start Digitalmoneybits after logging in to the system.</source>
         <translation>开机自动启动黑币客户端</translation>
     </message>
@@ -1156,7 +2030,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>开机时自动启动黑币客户端(&amp;S)</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+82"/>
         <source>&amp;Network</source>
         <translation>网络(&amp;N)</translation>
     </message>
@@ -1171,47 +2045,91 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>使用 &amp;UPnP 映射端口</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Connect to the Digitalmoneybits network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>经SOCKS代理连接到黑币网络(例如使用Tor)</translation>
+        <translation type="vanished">经SOCKS代理连接到黑币网络(例如使用Tor)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>经SOCKS代理连接(&amp;C)</translation>
+        <translation type="vanished">经SOCKS代理连接(&amp;C)</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation>代理服务器 &amp;IP：</translation>
+        <translation type="vanished">代理服务器 &amp;IP：</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+38"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
         <translation>代理地址(如：127.0.0.1)</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation>端口(&amp;P)：</translation>
+        <translation type="vanished">端口(&amp;P)：</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+26"/>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>代理端口（例如 9050）</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation>Socks 版本(&amp;V)：</translation>
+        <translation type="vanished">Socks 版本(&amp;V)：</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>Socks 代理版本（例如 5）</translation>
+        <translation type="vanished">Socks 代理版本（例如 5）</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="-235"/>
+        <source>Pay &amp;transaction fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+46"/>
+        <source>Reser&amp;ve</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+54"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This setting determines the amount of individual masternodes that an input will be anonymized through. More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Darksend rounds to use</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>This amount acts as a threshold to turn off Darksend once it&apos;s reached.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Amount of Digitalmoneybits to keep anonymized</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+40"/>
+        <source>Connect to the Digitalmoneybits network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Connect through SOCKS5 proxy:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Pro&amp;xy IP:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Por&amp;t:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
         <source>&amp;Window</source>
         <translation>窗口(&amp;W)</translation>
     </message>
@@ -1272,16 +2190,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Whether to select the coin outputs randomly or with minimal coin age.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Minimize weight consumption (experimental)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>Use black visual theme (requires restart)</source>
         <translation>使用黑色主题(需要重启钱包)</translation>
     </message>
@@ -1306,7 +2214,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>默认</translation>
     </message>
     <message>
-        <location line="+149"/>
+        <location line="+151"/>
         <location line="+9"/>
         <source>Warning</source>
         <translation>警告</translation>
@@ -1326,89 +2234,403 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
+        <location filename="../forms/overviewpage.ui" line="+15"/>
         <source>Form</source>
         <translation>表单</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <location line="+247"/>
+        <location line="+43"/>
+        <source>Balances</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <location line="+424"/>
+        <location line="+681"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Digitalmoneybits network after a connection is established, but this process has not completed yet.</source>
         <translation>所显示的信息尚未更新，建立连接后钱包客户端会自动和网络进行同步，但目前该过程尚未完成。</translation>
     </message>
     <message>
-        <location line="-173"/>
+        <location line="-1060"/>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+128"/>
+        <source>Current total balance in watch-only addresses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Watch-only:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Available:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+32"/>
         <source>Stake:</source>
         <translation>用于权益累积：</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+41"/>
+        <source>Total of coins that was staked in watch-only addresses, and do not yet count toward the current watch-only balance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Your current balance in watch-only addresses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Pending:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+54"/>
+        <location filename="../overviewpage.cpp" line="+513"/>
+        <location line="+11"/>
+        <location line="+10"/>
+        <location line="+14"/>
+        <source>Darksend</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+480"/>
+        <source>Status:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Completion:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Darksend Balance:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Amount and Rounds:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>0 DMB / 0 Rounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Submitted Denom:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enabled/Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>(Last Message)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Try to manually submit a Darksend request.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Try Mix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Start/Stop Mixing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Reset the current status of Darksend (can interrupt Darksend if it&apos;s in the process of Mixing, which can cost you money!)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+44"/>
+        <source>Recent transactions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Unconfirmed:</source>
-        <translation>未确认：</translation>
+        <translation type="vanished">未确认：</translation>
     </message>
     <message>
-        <location line="-113"/>
         <source>Wallet</source>
-        <translation>钱包</translation>
+        <translation type="vanished">钱包</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="-725"/>
         <source>Spendable:</source>
         <translation>可用金额：</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="-105"/>
         <source>Your current spendable balance</source>
         <translation>您当前可使用的余额</translation>
     </message>
     <message>
-        <location line="+80"/>
+        <location line="-83"/>
         <source>Immature:</source>
         <translation>未成熟的：</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="-29"/>
         <source>Mined balance that has not yet matured</source>
         <translation>尚未成熟的挖矿收入余额</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="-16"/>
         <source>Total:</source>
         <translation>总额：</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+61"/>
         <source>Your current total balance</source>
         <translation>您当前的总余额</translation>
     </message>
     <message>
-        <location line="+50"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;最近交易记录&lt;/b&gt;</translation>
+        <translation type="vanished">&lt;b&gt;最近交易记录&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="-118"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>尚未确认的交易总额（不计入目前钱包余额）</translation>
+        <translation type="vanished">尚未确认的交易总额（不计入目前钱包余额）</translation>
     </message>
     <message>
-        <location line="-32"/>
+        <location line="+99"/>
         <source>Total of coins that was staked, and do not yet count toward the current balance</source>
         <translation>正在进行权益累积的货币总额（不计入目前钱包余额）</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
+        <location filename="../overviewpage.cpp" line="-407"/>
+        <location line="+1"/>
         <location line="+1"/>
         <source>out of sync</source>
         <translation>数据未同步</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <location line="+1"/>
+        <location line="+1"/>
+        <location line="+312"/>
+        <source>Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-308"/>
+        <location line="+310"/>
+        <location line="+95"/>
+        <source>Start Darksend Mixing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-403"/>
+        <location line="+406"/>
+        <source>Stop Darksend Mixing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-215"/>
+        <location line="+5"/>
+        <source>No inputs detected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location line="-2"/>
+        <location line="+36"/>
+        <location line="+10"/>
+        <source>%n Rounds</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location line="-13"/>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Not enough compatible inputs to anonymize &lt;span style=&apos;color:red;&apos;&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style=&apos;color:red;&apos;&gt;%2&lt;/span&gt; instead</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+46"/>
+        <source>Overall progress</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Denominated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Mixed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Anonymized</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location line="+1"/>
+        <source>Denominated inputs have %5 of %n rounds on average</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Last Darksend message:
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>N/A</source>
+        <translation type="unfinished">不可用</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Darksend was successfully reset.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>If you don&apos;t want to see internal Darksend fees/transactions select &quot;Received By&quot; as Type on the &quot;Transactions&quot; tab.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Darksend requires at least %1 to use.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start transfer: click-to-pay handler</source>
-        <translation type="unfinished"/>
+        <source>Cannot start Digitalmoneybits: click-to-pay handler</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <location filename="../peertablemodel.cpp" line="+122"/>
+        <source>Address/Hostname</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>User Agent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Ping Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="../bitcoinunits.cpp" line="+209"/>
+        <source>Amount</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../guiutil.cpp" line="+98"/>
+        <source>%1 d</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 h</source>
+        <translation type="unfinished">%1 小时</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 m</source>
+        <translation type="unfinished">%1 分钟</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <location line="+34"/>
+        <location line="+5"/>
+        <source>%1 s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-22"/>
+        <source>NETWORK</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>UNKNOWN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>N/A</source>
+        <translation type="unfinished">不可用</translation>
     </message>
 </context>
 <context>
@@ -1424,22 +2646,30 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>请求支付</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+12"/>
+        <source>&amp;Label:</source>
+        <translation type="unfinished">标签(&amp;L)：</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>&amp;Message:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
         <source>Amount:</source>
         <translation>金额：</translation>
     </message>
     <message>
-        <location line="-44"/>
         <source>Label:</source>
-        <translation>标签：</translation>
+        <translation type="vanished">标签：</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Message:</source>
-        <translation>信息：</translation>
+        <translation type="vanished">信息：</translation>
     </message>
     <message>
-        <location line="+71"/>
+        <location line="+46"/>
         <source>&amp;Save As...</source>
         <translation>另存为(&amp;S)...</translation>
     </message>
@@ -1472,7 +2702,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
+        <location filename="../forms/rpcconsole.ui" line="+45"/>
         <source>Client name</source>
         <translation>客户端名称</translation>
     </message>
@@ -1483,23 +2713,38 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+23"/>
         <location line="+23"/>
         <location line="+36"/>
+        <location line="+23"/>
         <location line="+53"/>
         <location line="+23"/>
+        <location line="+627"/>
+        <location line="+39"/>
+        <location line="+23"/>
+        <location line="+30"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+26"/>
         <source>N/A</source>
         <translation>不可用</translation>
     </message>
     <message>
-        <location line="-194"/>
+        <location line="-1169"/>
         <source>Client version</source>
         <translation>客户端版本</translation>
     </message>
     <message>
-        <location line="-45"/>
+        <location line="-44"/>
         <source>&amp;Information</source>
         <translation>信息(&amp;I)</translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+67"/>
         <source>Using OpenSSL version</source>
         <translation>使用 OpenSSL 版本</translation>
     </message>
@@ -1520,6 +2765,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+23"/>
+        <source>Number of masternodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>On testnet</source>
         <translation>测试网</translation>
     </message>
@@ -1534,7 +2784,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>当前数据块数量</translation>
     </message>
     <message>
-        <location line="+197"/>
+        <location line="+200"/>
+        <source>Copy to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+48"/>
+        <source>Paste from clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Alt+P</source>
+        <translation type="unfinished">Alt+P</translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <source>&amp;Network Traffic</source>
         <translation>网络流量(&amp;N)</translation>
     </message>
@@ -1559,22 +2824,115 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>出：</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="+41"/>
+        <source>&amp;Peers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+50"/>
+        <source>Banned peers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+57"/>
+        <location filename="../rpcconsole.cpp" line="+226"/>
+        <location line="+416"/>
+        <location line="+165"/>
+        <source>Select a peer to view detailed information.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>User Agent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>Services</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Connection Time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Sync Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Starting Height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Ban Score</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Connection Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Last Send</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Last Recieve</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Last Send:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Bytes Received</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Ping Time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Time Offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-926"/>
         <source>Last block time</source>
         <translation>上一数据块时间</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+45"/>
         <source>&amp;Open</source>
         <translation>打开(&amp;O)</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+71"/>
         <source>Command-line options</source>
         <translation>命令行选项</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-25"/>
         <source>Show the Digitalmoneybits-Qt help message to get a list with possible Digitalmoneybits command-line options.</source>
         <translation>显示关于命令行选项的帮助信息。</translation>
     </message>
@@ -1584,42 +2942,79 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>显示(&amp;S)</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+47"/>
         <source>&amp;Console</source>
         <translation>控制台(&amp;C)</translation>
     </message>
     <message>
-        <location line="-237"/>
+        <location line="-299"/>
         <source>Build date</source>
         <translation>创建时间</translation>
     </message>
     <message>
-        <location line="-104"/>
+        <location line="-103"/>
         <source>Digitalmoneybits - Debug window</source>
         <translation>黑币客户端-调试窗口</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+24"/>
         <source>Digitalmoneybits Core</source>
         <translation>黑币核心进程</translation>
     </message>
     <message>
-        <location line="+256"/>
+        <location line="+304"/>
         <source>Debug log file</source>
         <translation>调试日志文件</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-25"/>
         <source>Open the Digitalmoneybits debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>打开调试日志文件，对于较大的文件，这可能持续几秒钟。</translation>
     </message>
     <message>
-        <location line="+102"/>
         <source>Clear console</source>
-        <translation>清空控制台</translation>
+        <translation type="vanished">清空控制台</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="+325"/>
+        <location filename="../rpcconsole.cpp" line="-504"/>
+        <source>&amp;Disconnect Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location line="+1"/>
+        <location line="+1"/>
+        <location line="+1"/>
+        <source>Ban Node for</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-3"/>
+        <source>1 &amp;hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>1 &amp;day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>1 &amp;week</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>1 &amp;year</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+46"/>
+        <source>&amp;Unban Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+66"/>
         <source>Welcome to the Digitalmoneybits RPC console.</source>
         <translation>欢迎使用黑币RPC控制台。</translation>
     </message>
@@ -1634,7 +3029,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>使用 &lt;b&gt;help&lt;/b&gt; 命令显示帮助信息。</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+140"/>
         <source>%1 B</source>
         <translation>%1 B</translation>
     </message>
@@ -1654,32 +3049,60 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>%1 GB</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>%1 m</source>
-        <translation>%1 分钟</translation>
+        <location line="+114"/>
+        <source>via %1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>%1 h</source>
-        <translation>%1 小时</translation>
+        <location line="+3"/>
+        <location line="+1"/>
+        <source>never</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Inbound</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Outbound</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Fetching...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation type="vanished">%1 分钟</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation type="vanished">%1 小时</translation>
+    </message>
+    <message>
         <source>%1 h %2 m</source>
-        <translation>%1 时 %2 分</translation>
+        <translation type="vanished">%1 时 %2 分</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+181"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
+        <location filename="../sendcoinsdialog.cpp" line="+633"/>
+        <location line="+16"/>
         <source>Send Coins</source>
         <translation>发送货币</translation>
     </message>
@@ -1794,6 +3217,16 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+24"/>
+        <source>Darksend</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>InstantX</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Balance:</source>
         <translation>余额：</translation>
     </message>
@@ -1813,12 +3246,16 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>发送(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-173"/>
         <source>Enter a Digitalmoneybits address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>输入黑币地址(例如：T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation type="vanished">输入黑币地址(例如：T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location filename="../sendcoinsdialog.cpp" line="-603"/>
+        <source>Enter Digitalmoneybits address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+43"/>
         <source>Copy quantity</source>
         <translation>复制金额</translation>
     </message>
@@ -1858,74 +3295,152 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>复制零钱</translation>
     </message>
     <message>
-        <location line="+86"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; 至 %2 (%3)</translation>
+        <location line="+156"/>
+        <location line="+6"/>
+        <location line="+9"/>
+        <source>using</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-15"/>
+        <location line="+6"/>
+        <source>anonymous funds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
+        <source>any available funds (not recommended)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>and InstantX</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>%1 to %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+48"/>
+        <source>Are you sure you want to send?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>are added as transaction fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+250"/>
+        <source>Error: The wallet was unlocked only to anonymize coins.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Error: Narration is too long.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>A fee %1 times higher than %2 per recipient is considered an insanely high fee.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+217"/>
+        <source>Warning: Invalid Digitalmoneybits address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Warning: Unknown change address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
+        <translation type="vanished">&lt;b&gt;%1&lt;/b&gt; 至 %2 (%3)</translation>
+    </message>
+    <message>
+        <location line="-480"/>
         <source>Confirm send coins</source>
         <translation>确认发送货币</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>确认要发送 %1 ?</translation>
+        <translation type="vanished">确认要发送 %1 ?</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source> and </source>
-        <translation>和</translation>
+        <translation type="vanished">和</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+219"/>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>收款人地址不合法，请检查。</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
         <source>The amount to pay must be larger than 0.</source>
         <translation>支付金额必须大于0。</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
         <source>The amount exceeds your balance.</source>
         <translation>金额超出您的账上余额。</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>计入 %1 交易费后的金额超出您的账上余额。</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+3"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>发现重复的地址, 每次只能对同一地址发送一次。</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
         <source>Error: Transaction creation failed!</source>
         <translation>错误：交易创建失败。</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+4"/>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to 500 DMB.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>错误：交易被拒绝。可能由于钱包中部分金额已被使用，例如您使用了钱包数据的副本，在副本中某些金额已被使用，但在此处尚未被标记为已使用。</translation>
     </message>
     <message>
-        <location line="+247"/>
         <source>WARNING: Invalid Digitalmoneybits address</source>
-        <translation>警告：无效的黑币地址</translation>
+        <translation type="vanished">警告：无效的黑币地址</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+249"/>
         <source>(no label)</source>
         <translation>(没有标签)</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>WARNING: unknown change address</source>
-        <translation>警告：未知的零钱地址</translation>
+        <translation type="vanished">警告：未知的零钱地址</translation>
     </message>
 </context>
 <context>
@@ -1936,33 +3451,36 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>表单</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>金额(&amp;M)</translation>
+        <translation type="vanished">金额(&amp;M)</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+53"/>
         <source>Pay &amp;To:</source>
         <translation>付给(&amp;T)：</translation>
     </message>
     <message>
-        <location line="+34"/>
         <source>The address to send the payment to (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>收款人地址(例：T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation type="vanished">收款人地址(例：T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
+        <location line="+15"/>
+        <location filename="../sendcoinsentry.cpp" line="+27"/>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>为这个地址输入一个标签，以便将它添加到您的地址簿</translation>
     </message>
     <message>
-        <location line="-78"/>
+        <location line="-28"/>
         <source>&amp;Label:</source>
         <translation>标签(&amp;L)：</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="-23"/>
+        <source>Amount</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+58"/>
         <source>Choose address from address book</source>
         <translation>从地址簿选择地址</translation>
     </message>
@@ -1972,7 +3490,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+9"/>
+        <source>Amo&amp;unt:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>The address to send the payment to.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <source>Paste address from clipboard</source>
         <translation>从剪贴板粘贴地址</translation>
     </message>
@@ -1982,14 +3510,226 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-105"/>
         <source>Remove this recipient</source>
         <translation>删除收款人</translation>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Digitalmoneybits address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>输入一个黑币地址 (例：T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation type="vanished">输入一个黑币地址 (例：T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsentry.cpp" line="+1"/>
+        <source>Enter Digitalmoneybits address</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SendMessagesDialog</name>
+    <message>
+        <location filename="../forms/sendmessagesdialog.ui" line="+14"/>
+        <source>Send Messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+36"/>
+        <source>Address &amp;From:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>Choose address from address book</source>
+        <translation type="unfinished">从地址簿选择地址</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Alt+A</source>
+        <translation type="unfinished">Alt+A</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Paste address from clipboard</source>
+        <translation type="unfinished">从剪贴板粘贴地址</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Alt+P</source>
+        <translation type="unfinished">Alt+P</translation>
+    </message>
+    <message>
+        <location line="+65"/>
+        <source>Send to multiple recipients at once</source>
+        <translation type="unfinished">一次发送给多个接收者</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Add &amp;Recipient</source>
+        <translation type="unfinished">添加收款人(&amp;R)</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Remove all transaction fields</source>
+        <translation type="unfinished">删除所有交易区域</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Clear &amp;All</source>
+        <translation type="unfinished">清除所有(&amp;A)</translation>
+    </message>
+    <message>
+        <location line="+36"/>
+        <source>Confirm the send action</source>
+        <translation type="unfinished">确认并发送货币</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>S&amp;end</source>
+        <translation type="unfinished">发送(&amp;E)</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sendmessagesdialog.cpp" line="+37"/>
+        <source>Enter Digitalmoneybits address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+121"/>
+        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
+        <translation type="unfinished">&lt;b&gt;%1&lt;/b&gt; 至 %2 (%3)</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Confirm send messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Are you sure you want to send %1?</source>
+        <translation type="unfinished">确认要发送 %1 ?</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source> and </source>
+        <translation type="unfinished">和</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <source>Send Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-19"/>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation type="unfinished">收款人地址不合法，请检查。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>The message can&apos;t be empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation type="unfinished">发现重复的地址, 每次只能对同一地址发送一次。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: Message creation failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: The message was rejected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SendMessagesEntry</name>
+    <message>
+        <location filename="../forms/sendmessagesentry.ui" line="+14"/>
+        <source>Form</source>
+        <translation type="unfinished">表单</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Send &amp;To:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>The address to send the payment to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <location line="+92"/>
+        <source>Paste address from clipboard</source>
+        <translation type="unfinished">从剪贴板粘贴地址</translation>
+    </message>
+    <message>
+        <location line="-82"/>
+        <location line="+92"/>
+        <source>Alt+P</source>
+        <translation type="unfinished">Alt+P</translation>
+    </message>
+    <message>
+        <location line="-83"/>
+        <source>&amp;Label:</source>
+        <translation type="unfinished">标签(&amp;L)：</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <location filename="../sendmessagesentry.cpp" line="+27"/>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation type="unfinished">为这个地址输入一个标签，以便将它添加到您的地址簿</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Choose address from address book</source>
+        <translation type="unfinished">从地址簿选择地址</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Alt+A</source>
+        <translation type="unfinished">Alt+A</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Remove this recipient</source>
+        <translation type="unfinished">删除收款人</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>&amp;Public Key:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+34"/>
+        <source>&amp;Message:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sendmessagesentry.cpp" line="+1"/>
+        <source>Enter Digitalmoneybits address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter the public key for the address above, it is not in the blockchain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>You cannot send a blank message!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2011,9 +3751,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>您可以用你的地址对消息进行签名，以证明您是该地址的所有人。注意不要对模棱两可的消息签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
-        <location line="+18"/>
         <source>The address to sign the message with (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>用来签名该消息的地址(例： T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation type="vanished">用来签名该消息的地址(例： T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>The address to sign the message with</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2090,10 +3834,14 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>清空所有验证消息栏</translation>
     </message>
     <message>
+        <source>Enter a Digitalmoneybits address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation type="vanished">输入黑币地址(例： T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+    </message>
+    <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Digitalmoneybits address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>输入黑币地址(例： T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter Digitalmoneybits address</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2106,7 +3854,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>输入黑币签名</translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="+85"/>
         <location line="+81"/>
         <source>The entered address is invalid.</source>
         <translation>输入的地址非法。</translation>
@@ -2188,7 +3936,10 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>至 %1 个数据块时开启</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
+        <location line="+11"/>
+        <location line="+10"/>
+        <location line="+12"/>
         <source>conflicted</source>
         <translation>发现冲突</translation>
     </message>
@@ -2203,19 +3954,62 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>%1/未确认</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-10"/>
+        <location line="+12"/>
         <source>%1 confirmations</source>
         <translation>%1 已确认</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="-37"/>
+        <source>%1/offline (verified via instantx)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1/confirmed (verified via instantx)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 confirmations (verified via instantx)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>%1/offline (InstantX verification in progress - %2 of %3 signatures)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1/confirmed (InstantX verification in progress - %2 of %3 signatures )</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1 confirmations (InstantX verification in progress - %2 of %3 signatures)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>%1/offline (InstantX verification failed)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>%1/confirmed (InstantX verification failed)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+32"/>
         <source>Status</source>
         <translation>状态</translation>
     </message>
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>通过 %n 个节点广播</numerusform></translation>
+        <translation>
+            <numerusform>通过 %n 个节点广播</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2234,41 +4028,49 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+5"/>
-        <location line="+17"/>
+        <location line="+13"/>
+        <location line="+73"/>
         <source>From</source>
         <translation>来自</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
+        <location line="-72"/>
+        <location line="+20"/>
+        <location line="+69"/>
         <source>To</source>
         <translation>到</translation>
     </message>
     <message>
-        <location line="-77"/>
-        <location line="+2"/>
+        <location line="-87"/>
         <source>own address</source>
         <translation>自己的地址</translation>
     </message>
     <message>
-        <location line="-2"/>
+        <location line="+0"/>
+        <location line="+70"/>
+        <source>watch-only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-68"/>
         <source>label</source>
         <translation>标签</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+34"/>
         <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
+        <location line="+53"/>
+        <location line="+26"/>
+        <location line="+33"/>
         <source>Credit</source>
         <translation>收入</translation>
     </message>
     <message numerus="yes">
-        <location line="-102"/>
+        <location line="-122"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>将在 %n 个数据块后成熟</numerusform></translation>
+        <translation>
+            <numerusform>将在 %n 个数据块后成熟</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2276,15 +4078,24 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>未被接受</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
+        <location line="+59"/>
+        <location line="+25"/>
+        <location line="+33"/>
         <source>Debit</source>
         <translation>支出</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <location line="-48"/>
+        <source>Total debit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Total credit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Transaction fee</source>
         <translation>交易费</translation>
     </message>
@@ -2309,12 +4120,16 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>交易ID</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 510 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>通过权益累积获得的金额需要在510个块确认后方可使用。此数据块生成时，将被广播到网络并加入区块链。如果未能成功加入区块链，其状态会显示为“未接受”，该部分金额也不可被使用。如果其他节点在您生成区块后的几秒钟内也生成了区块，这种情况会偶尔发生。</translation>
+        <location line="+4"/>
+        <source>Generated coins must mature 80 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="unfinished">通过权益累积获得的金额需要在510个块确认后方可使用。此数据块生成时，将被广播到网络并加入区块链。如果未能成功加入区块链，其状态会显示为“未接受”，该部分金额也不可被使用。如果其他节点在您生成区块后的几秒钟内也生成了区块，这种情况会偶尔发生。 {80 ?}</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Generated coins must mature 510 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation type="vanished">通过权益累积获得的金额需要在510个块确认后方可使用。此数据块生成时，将被广播到网络并加入区块链。如果未能成功加入区块链，其状态会显示为“未接受”，该部分金额也不可被使用。如果其他节点在您生成区块后的几秒钟内也生成了区块，这种情况会偶尔发生。</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Debug information</source>
         <translation>调试信息</translation>
     </message>
@@ -2335,26 +4150,30 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
+        <location line="+1"/>
         <source>true</source>
         <translation>正确</translation>
     </message>
     <message>
-        <location line="+0"/>
+        <location line="-1"/>
+        <location line="+1"/>
         <source>false</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location line="-209"/>
+        <location line="-224"/>
         <source>, has not been successfully broadcast yet</source>
         <translation>，未被成功广播</translation>
     </message>
     <message numerus="yes">
-        <location line="-36"/>
+        <location line="-75"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>为 %n 个数据块开启</numerusform></translation>
+        <translation>
+            <numerusform>为 %n 个数据块开启</numerusform>
+        </translation>
     </message>
     <message>
-        <location line="+71"/>
+        <location line="+106"/>
         <source>unknown</source>
         <translation>未知</translation>
     </message>
@@ -2375,7 +4194,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+231"/>
+        <location filename="../transactiontablemodel.cpp" line="+223"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
@@ -2390,12 +4209,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>地址</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Amount</source>
-        <translation>数量</translation>
+        <translation type="vanished">数量</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+62"/>
         <source>Open until %1</source>
         <translation>至 %1 个数据块时开启</translation>
     </message>
@@ -2407,7 +4225,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message numerus="yes">
         <location line="-15"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>为 %n 个更多的区块开启</numerusform></translation>
+        <translation>
+            <numerusform>为 %n 个更多的区块开启</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2445,7 +4265,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>已生成但未被接受</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+39"/>
         <source>Received with</source>
         <translation>接收于</translation>
     </message>
@@ -2453,6 +4273,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+2"/>
         <source>Received from</source>
         <translation>收款来自</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Received via Darksend</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2470,12 +4295,42 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>挖矿所得</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+3"/>
+        <source>Darksend Denominate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Darksend Collateral Payment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Darksend Make Collateral Inputs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Darksend Create Denominations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Darksent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>watch-only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>(n/a)</source>
         <translation>（不可用）</translation>
     </message>
     <message>
-        <location line="+194"/>
+        <location line="+213"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation>交易状态。 鼠标移到此区域可显示确认项数量。</translation>
     </message>
@@ -2491,6 +4346,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Destination address of transaction.</source>
         <translation>交易目的地址。</translation>
     </message>
@@ -2503,7 +4363,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+54"/>
+        <location filename="../transactionview.cpp" line="+67"/>
         <location line="+17"/>
         <source>All</source>
         <translation>全部</translation>
@@ -2540,6 +4400,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+12"/>
+        <source>Most Common</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Received with</source>
         <translation>接收于</translation>
     </message>
@@ -2550,6 +4415,31 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
+        <source>Darksent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Darksend Make Collateral Inputs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Darksend Create Denominations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Darksend Denominate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Darksend Collateral Payment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>To yourself</source>
         <translation>到自己</translation>
     </message>
@@ -2569,12 +4459,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>输入地址或标签进行搜索</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>Min amount</source>
         <translation>最小金额</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+36"/>
         <source>Copy address</source>
         <translation>复制地址</translation>
     </message>
@@ -2604,7 +4494,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>显示交易详情</translation>
     </message>
     <message>
-        <location line="+138"/>
+        <location line="+198"/>
         <source>Export Transaction Data</source>
         <translation>输出交易数据</translation>
     </message>
@@ -2617,6 +4507,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+8"/>
         <source>Confirmed</source>
         <translation>已确认</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Watch-only</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2639,27 +4534,44 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>地址</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>金额</translation>
+        <location line="+5"/>
+        <source>Exporting Failed</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+0"/>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Exporting Successful</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="vanished">金额</translation>
+    </message>
+    <message>
+        <location line="-7"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Error exporting</source>
-        <translation>导出出现错误</translation>
+        <translation type="vanished">导出出现错误</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>无法写入文件 %1 。</translation>
+        <translation type="vanished">无法写入文件 %1 。</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+124"/>
         <source>Range:</source>
         <translation>范围：</translation>
     </message>
@@ -2672,7 +4584,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+208"/>
+        <location filename="../walletmodel.cpp" line="+305"/>
+        <source>Send Coins</source>
+        <translation type="unfinished">发送货币</translation>
+    </message>
+    <message>
+        <location line="+206"/>
         <source>Sending...</source>
         <translation>正在发送</translation>
     </message>
@@ -2680,7 +4597,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+173"/>
+        <location filename="../bitcoinstrings.cpp" line="+172"/>
         <source>Digitalmoneybits version</source>
         <translation>黑币客户端 版本</translation>
     </message>
@@ -2707,7 +4624,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 </translation>
     </message>
     <message>
-        <location line="-147"/>
+        <location line="-146"/>
         <source>Options:</source>
         <translation>选项：
 </translation>
@@ -2796,7 +4713,7 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2819,12 +4736,12 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>设置RPC监听端口%u时发生错误, IPv4:%s</translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+64"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15715 or testnet: 25715)</source>
         <translation>监听 &lt;port&gt; 端口的JSON-RPC连接 (默认: 15715 测试网: 25715)</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>接受命令行和 JSON-RPC 命令
 </translation>
@@ -2853,7 +4770,7 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>在IPv6模式下设置RPC监听端口 %u 失败，返回到IPv4模式: %s</translation>
     </message>
     <message>
-        <location line="+96"/>
+        <location line="+95"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>设置高优先度/低手续费交易的最大字节数 (默认: 27000)</translation>
     </message>
@@ -2863,12 +4780,12 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>警告：-paytxfee 交易费设置得太高了！每笔交易都将支付交易费。</translation>
     </message>
     <message>
-        <location line="-103"/>
+        <location line="-102"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Digitalmoneybits will not work properly.</source>
         <translation>警告：请确认您计算机的本地时间。如果时钟错误，黑币客户端将不能正常工作。</translation>
     </message>
     <message>
-        <location line="+132"/>
+        <location line="+131"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>警告：钱包文件wallet.dat读取失败！最重要的公钥、私钥数据都没有问题，但是交易记录或地址簿数据不正确，或者存在数据丢失。</translation>
     </message>
@@ -2888,7 +4805,7 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>数据块创建选项：</translation>
     </message>
     <message>
-        <location line="-69"/>
+        <location line="-68"/>
         <source>Connect only to the specified node(s)</source>
         <translation>仅连接到指定节点</translation>
     </message>
@@ -2898,17 +4815,17 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>发现自己的IP地址(缺省:不带 -externalip 参数监听时设置为1)</translation>
     </message>
     <message>
-        <location line="+101"/>
+        <location line="+100"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>监听端口失败。请使用 -listen=0 参数。</translation>
     </message>
     <message>
-        <location line="-91"/>
+        <location line="-90"/>
         <source>Sync checkpoints policy (default: strict)</source>
         <translation>同步检测点政策 (默认：严格)</translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+88"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
         <translation>无效的 -tor 地址: &apos;%s&apos;</translation>
     </message>
@@ -2918,7 +4835,7 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>-reservebalance=&lt;amount&gt; 金额无效</translation>
     </message>
     <message>
-        <location line="-88"/>
+        <location line="-87"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation>每个连接的最大接收缓存，&lt;n&gt;*1000 字节(缺省：5000)</translation>
     </message>
@@ -2938,12 +4855,12 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>将时间信息加入调试输出中</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+40"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL选项：(参见Bitcoin Wiki关于SSL设置栏目)</translation>
     </message>
     <message>
-        <location line="-81"/>
+        <location line="-80"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>选择要使用的SOCKS代理版本 (4-5, 默认 5)</translation>
     </message>
@@ -2953,12 +4870,11 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>跟踪/调试信息输出到控制台，不输出到 debug.log 文件</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>发送跟踪/调试信息给调试者</translation>
+        <translation type="vanished">发送跟踪/调试信息给调试者</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+34"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
         <translation>设置最大区块大小 (默认：250000)</translation>
     </message>
@@ -2968,7 +4884,7 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>设置最小数据块大小(缺省:0)</translation>
     </message>
     <message>
-        <location line="-35"/>
+        <location line="-34"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>客户端启动时压缩debug.log文件(缺省：no-debug模式时为1)</translation>
     </message>
@@ -2978,13 +4894,13 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>设置连接超时时间(缺省：5000毫秒)</translation>
     </message>
     <message>
-        <location line="+116"/>
+        <location line="+115"/>
         <source>Unable to sign checkpoint, wrong checkpointkey?
 </source>
         <translation>无法为记录点签名，错误的记录点密钥。</translation>
     </message>
     <message>
-        <location line="-86"/>
+        <location line="-85"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>使用UPnP映射监听端口 (缺省: 0)</translation>
     </message>
@@ -2999,7 +4915,7 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>开启代理以使用隐藏服务 (默认: 和-proxy设置相同)</translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+46"/>
         <source>Username for JSON-RPC connections</source>
         <translation>JSON-RPC 连接用户名</translation>
     </message>
@@ -3060,7 +4976,7 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
-        <location line="-32"/>
+        <location line="-31"/>
         <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
         <translation>自动和其它节点同步时间。如果本地计算机世界是准确的，建议关闭。(默认: 1)</translation>
     </message>
@@ -3087,10 +5003,10 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
     <message>
         <location line="+4"/>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>允许从指定IP接受到的 JSON-RPC 连接</translation>
     </message>
@@ -3198,13 +5114,13 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>警告：发现无效的记录点。所显示的交易信息未必正确！请升级客户端或联系开发者。</translation>
     </message>
     <message>
-        <location line="-174"/>
+        <location line="-173"/>
         <source>This help message</source>
         <translation>本帮助信息
 </translation>
     </message>
     <message>
-        <location line="+104"/>
+        <location line="+103"/>
         <source>Wallet %s resides outside data directory %s.</source>
         <translation>钱包 %s 位于数据目录 %s 之外.</translation>
     </message>
@@ -3214,7 +5130,7 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>无法绑定本机端口 %s  (返回错误消息 %d, %s)</translation>
     </message>
     <message>
-        <location line="-133"/>
+        <location line="-132"/>
         <source>Connect through socks proxy</source>
         <translation>通过socks代理连接</translation>
     </message>
@@ -3224,7 +5140,7 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>使用 -addnode, -seednode 和 -connect 选项时允许查询DNS</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+125"/>
         <source>Loading addresses...</source>
         <translation>正在加载地址簿...</translation>
     </message>
@@ -3304,24 +5220,24 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>正在加载数据块索引...</translation>
     </message>
     <message>
-        <location line="-110"/>
+        <location line="-109"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>添加节点并与其保持连接</translation>
     </message>
     <message>
-        <location line="+125"/>
+        <location line="+124"/>
         <source>Unable to bind to %s on this computer. Digitalmoneybits is probably already running.</source>
         <translation>无法绑定到该计算机上的 %s. 黑币客户端可能已在运行中。</translation>
     </message>
     <message>
-        <location line="-101"/>
+        <location line="-100"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation>每kB交易所支付的手续费</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>Minimize weight consumption (experimental) (default: 0)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3331,7 +5247,7 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
     <message>
         <location line="+3"/>
         <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
@@ -3341,7 +5257,7 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
     <message>
         <location line="+3"/>
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3384,12 +5300,12 @@ alertnotify=echo %%s | mail -s &quot;Digitalmoneybits Alert&quot; admin@foo.com
         <translation>加载完成</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-160"/>
         <source>To use the %s option</source>
         <translation>使用 %s 选项</translation>
     </message>
     <message>
-        <location line="+188"/>
+        <location line="+187"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
