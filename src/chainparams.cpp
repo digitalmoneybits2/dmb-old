@@ -86,7 +86,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
 
-assert(hashGenesisBlock == uint256("0x3f4ce71618777f85a62fcba786e80273b1bc0224a851d59f3ff086200c61f145"));
+        assert(hashGenesisBlock == uint256("0x3f4ce71618777f85a62fcba786e80273b1bc0224a851d59f3ff086200c61f145"));
 
         assert(genesis.hashMerkleRoot == uint256("0xef64b62464a3c7b63786119bccbb6a584e69107761049f160216c3b3e05a6c5c"));
 
@@ -99,9 +99,9 @@ assert(hashGenesisBlock == uint256("0x3f4ce71618777f85a62fcba786e80273b1bc0224a8
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-	vSeeds.push_back(CDNSSeedData("0",  "31.220.62.198"));
-     vSeeds.push_back(CDNSSeedData("1",  "194.182.84.37"));
-     vSeeds.push_back(CDNSSeedData("2",  "194.182.86.227"));
+        // vSeeds.push_back(CDNSSeedData("0",  "31.220.62.198"));
+        // vSeeds.push_back(CDNSSeedData("1",  "194.182.84.37"));
+        // vSeeds.push_back(CDNSSeedData("2",  "194.182.86.227"));
         convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
 
