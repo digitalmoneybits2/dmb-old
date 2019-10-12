@@ -1,4 +1,4 @@
-# Digitalmoneybits Community Wallet
+# Digitalmoneybits 2.0 Community Wallet
 
 EASY DIGITAL MONEY
 
@@ -30,3 +30,17 @@ http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
 the OpenSSL Toolkit (http://www.openssl.org/).
 This product includes cryptographic software written by Eric Young (eay@cryptsoft.com).
+
+
+Community
+-----
+website: https://www.digitalmoneybits.org
+
+Discord:  https://discord.gg/hPh5unT
+
+twitter: https://twitter.com/dmb2official
+
+
+Contribute to Digitalmoneybits 2.0 Community Wallet development:
+-----
+create an account on GitHub, fork our code, make it better & create a pull request !
