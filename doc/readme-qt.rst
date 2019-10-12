@@ -17,6 +17,15 @@ distribution are installed, for Debian and Ubuntu these are:
         libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
         libssl-dev libdb++-dev libminiupnpc-dev
 
+for Ubuntu 18.04 these are:
+
+::
+
+    apt-get install qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools \
+        build-essential libboost-dev libboost-system-dev \
+        libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
+        libssl1.0-dev libdb++-dev libminiupnpc-dev
+
 then execute the following:
 
 ::
