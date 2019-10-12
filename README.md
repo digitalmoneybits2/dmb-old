@@ -5,7 +5,8 @@ EASY DIGITAL MONEY
 
 Intro
 -----
-Digital Money Bits (DMB) is a Free Open Source Project derived from Bitcoin, with the goal of providing a long-term, energy efficient, user friendly cryptocurrency.
+Digital Money Bits (DMB) is a Free Open Source Project derived from Bitcoin,
+with the goal of providing a long-term, energy efficient, user friendly cryptocurrency.
 
 
 About
