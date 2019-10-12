@@ -65,6 +65,14 @@ Mac OS X
 
 	sudo port selfupdate
 	sudo port install boost db48 miniupnpc
+	
+
+- Optionally install qrencode (and set USE_QRCODE=1):
+
+::
+
+	sudo port install qrencode
+
 
 - Open the .pro file in Qt Creator and build as normal (cmd-B)
 
