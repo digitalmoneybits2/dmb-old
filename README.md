@@ -41,7 +41,7 @@ Discord:  https://discord.gg/hPh5unT
 twitter: https://twitter.com/dmb2official
 
 
-Digitalmoneybits (DMB) is a truly community coin !
+Digitalmoneybits (DMB) is a real community coin !
 -----
 Contribute to Digitalmoneybits 2.0 Community Wallet development by creating an account on GitHub,
 fork our code, make it better & create a pull request !
