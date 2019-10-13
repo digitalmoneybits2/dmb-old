@@ -1,0 +1,34 @@
+
+	MASTERNODE SETUP FOR UBUNTU 18.04 64BIT WITH GUI WALLET
+
+Static public IP and open ports are essential!
+1. Run terminal/console
+2. Paste 
+sudo apt-get update
+
+sudo apt-get upgrade
+
+chmod +x Digitalmoneybits-qt
+(change permission of file, in this example path to file is ~/Digitalmoneybits-qt)
+
+sudo apt-get install qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools build-essential libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libssl1.0-dev libdb++-dev libminiupnpc-dev
+
+1.Run wallet for the first time using command ./Digitalmoneybits-qt 
+2.In the lower left hand corner of the User Interface, you will see “Synchronizing with network” and other sync messages each time you open your DMB Wallet. If there is a problem synchronizing, it may say “No Block Source Available” instead. If this happens, just close and re-open the wallet until it synchronizes. 
+3.Go to Help -> Debug Console.
+4.In the Console window enter getaccountaddress mn1 and copy the result. This is your MASTERNODE DEPOSIT ADDRESS, where you will deposit the coins to create a masternode. Pay exactly 100k DMB to this address. No more, no less.
+(Wait for the 1st confirmation of the transaction)
+5.In the Console Debug window enter "masternode genkey" and copy the result. This is your MASTERNODE PRIVKEY.
+6.Edit config file Digitalmoneybits.conf which is located in hidden folder ~/.dmb.  Then paste in the following:
+
+masternode=1
+masternodeprivkey= (MASTERNODE PRIVKEY)
+
+
+8.Now save and close the config file.
+9.Close the wallet by going to File -> Exit.
+Run Digitalmoneybits-qt again. 
+10. Wait for 15 confirmations of 100k DMB transaction.
+Go to Tools -> Debug Console. Enter masternode start. You will see the response “Masternode started successfully”. Congratulations, your masternode is now running.
+Now click the Masternodes tab that is now visible. You should see your new masternode appear in the list with the status 1.
+All masternodes need to be active for a certain amount of blocks before they are recognized by the network and eligible for rewards.
