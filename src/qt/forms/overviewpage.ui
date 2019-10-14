@@ -6,11 +6,10 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>173</width>
-    <height>142</height>
+    <width>659</width>
+    <height>278</height>
    </rect>
   </property>
-
   <property name="windowTitle">
    <string>Form</string>
   </property>
@@ -53,6 +52,9 @@
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel { color: blue; }</string>
               </property>
               <property name="text">
                <string>Balances</string>
@@ -1158,6 +1160,9 @@
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel { color: blue; }</string>
               </property>
               <property name="text">
                <string>Recent transactions</string>

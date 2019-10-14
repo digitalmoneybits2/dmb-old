@@ -63,6 +63,9 @@
             <bold>true</bold>
            </font>
           </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel { color: blue; }</string>
+          </property>
           <property name="text">
            <string>Local Blockbrowser</string>
           </property>
@@ -330,7 +333,7 @@
         <property name="minimumSize">
          <size>
           <width>0</width>
-          <height>10</height>
+          <height>16</height>
          </size>
         </property>
         <property name="orientation">
@@ -367,6 +370,9 @@
       </item>
       <item>
        <layout class="QGridLayout" name="gridLayout_2">
+        <property name="bottomMargin">
+         <number>12</number>
+        </property>
         <property name="horizontalSpacing">
          <number>7</number>
         </property>
@@ -480,7 +486,7 @@
                <x>0</x>
                <y>0</y>
                <width>534</width>
-               <height>118</height>
+               <height>109</height>
               </rect>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -566,7 +572,7 @@
                <x>0</x>
                <y>0</y>
                <width>534</width>
-               <height>117</height>
+               <height>109</height>
               </rect>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_2">
