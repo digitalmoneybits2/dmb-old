@@ -99,8 +99,32 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-        vSeeds.push_back(CDNSSeedData("0", "seed1.digitalmoneybits.org"));
-        vSeeds.push_back(CDNSSeedData("1", "seed2.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed001", "seed001.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed002", "seed002.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed003", "seed003.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed004", "seed004.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed005", "seed005.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed006", "seed006.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed007", "seed007.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed008", "seed008.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed009", "seed009.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed010", "seed010.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed011", "seed011.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed012", "seed012.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed013", "seed013.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed014", "seed014.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed015", "seed015.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed016", "seed016.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed017", "seed017.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed018", "seed018.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed019", "seed019.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed020", "seed020.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed021", "seed021.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed022", "seed022.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed023", "seed023.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed024", "seed024.digitalmoneybits.org"));
+        vSeeds.push_back(CDNSSeedData("seed025", "seed025.digitalmoneybits.org"));
+
         convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
 
